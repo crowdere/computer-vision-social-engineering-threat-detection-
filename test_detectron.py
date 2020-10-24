@@ -40,7 +40,7 @@ def draw_detectron2_result(prediction, frame, cfg):
 if __name__ == '__main__':
     pred, cfg = initialize_detectron2()
     outputs = pred(im)
-    person_instances = outputs['instances'][np.where(outputs['instances'].pred_classes == 0)]
+    person_instances = outputs['instances']#[np.where(outputs['instances'].pred_classes == 0)]
     # print(outputs['instances'])
     v = draw_detectron2_result(person_instances, im, cfg)
     plt.imshow(v.get_image()[:, :, ::-1])
