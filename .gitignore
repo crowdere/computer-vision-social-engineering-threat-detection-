@@ -1,2 +1,9 @@
 
 .DS_Store
+
+.idea/
+
+detectron2-e883afb9afe2b5196b7cba7485583a1d063a9991
+
+detectron2-master
+yolov3.weights
