@@ -2,7 +2,7 @@ import cv2
 import os
 # import torch
 import numpy as np
-import face_recognition
+import face_classifier
 from glob import glob
 import matplotlib.pyplot as plt
 ## Detectron2
