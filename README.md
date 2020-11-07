@@ -2,7 +2,7 @@
 
 Development environment structure 
 
-* **face_recognition.py** contains the original face recognition class
+* **face_classifier.py** contains the original face recognition class
 * **opencv_eye_detection.py** contains the opencv eye detector class
 * **yolo_human_detect.py** contains the yolo human detector class
 * **security_features.py** contains the security features we've developed so far
