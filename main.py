@@ -3,6 +3,7 @@ from yolo_human_detect import HumanDetector
 from face_classifier import FaceDetector
 from opencv_eye_detection import EyeDetector
 from security_features import EnterpriseShield
+from gaze_tracking.gaze_tracking import GazeTracking
 
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
@@ -11,6 +12,8 @@ yolo_net = HumanDetector()
 face_net = FaceDetector()
 eye_net = EyeDetector()
 enterprise_shield = EnterpriseShield()
+gaze = GazeTracking()
+
 
 def nothing():
     pass
@@ -38,7 +41,10 @@ while True:
     frame = yolo_net.yolo_main(frame)
 
     # Eye detection
-    frame = eye_net.eye_detection_main(frame, face_net.face_locations)
+    # frame = eye_net.eye_detection_main(frame, face_net.face_locations)
+
+    gaze.refresh(frame)
+    frame = gaze.extended_frame_annotation()
 
     cv2.imshow('video', frame)
 
