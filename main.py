@@ -40,11 +40,7 @@ while True:
     # Human detection
     frame = yolo_net.yolo_main(frame)
 
-    # Eye detection
-    # frame = eye_net.eye_detection_main(frame, face_net.face_locations)
-
-    gaze.refresh(frame)
-    frame = gaze.extended_frame_annotation()
+    frame = gaze.per_face_gaze(frame, face_net, eye_net)
 
     cv2.imshow('video', frame)
 

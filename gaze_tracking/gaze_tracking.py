@@ -27,6 +27,11 @@ class GazeTracking(object):
         model_path = os.path.abspath(os.path.join(cwd, "trained_models/shape_predictor_68_face_landmarks.dat"))
         self._predictor = dlib.shape_predictor(model_path)
 
+        # Custom additions for eye detection
+        self.x_add = 0
+        self.y_add = 0
+        self.process_this_frame = True
+
     @property
     def pupils_located(self):
         """Check that the pupils have been located"""
@@ -39,13 +44,10 @@ class GazeTracking(object):
         except Exception:
             return False
 
-    def _analyze(self):
+    def _analyze(self, face, frame):
         """Detects the face and initialize Eye objects"""
-        frame = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
-        faces = self._face_detector(frame)
-
         try:
-            landmarks = self._predictor(frame, faces[0])
+            landmarks = self._predictor(frame, face)
             self.eye_left = Eye(frame, landmarks, 0, self.calibration)
             self.eye_right = Eye(frame, landmarks, 1, self.calibration)
 
@@ -53,27 +55,27 @@ class GazeTracking(object):
             self.eye_left = None
             self.eye_right = None
 
-    def refresh(self, frame):
+    def refresh(self, face, frame):
         """Refreshes the frame and analyzes it.
 
         Arguments:
             frame (numpy.ndarray): The frame to analyze
         """
         self.frame = frame
-        self._analyze()
+        self._analyze(face, frame)
 
     def pupil_left_coords(self):
         """Returns the coordinates of the left pupil"""
         if self.pupils_located:
-            x = self.eye_left.origin[0] + self.eye_left.pupil.x
-            y = self.eye_left.origin[1] + self.eye_left.pupil.y
+            x = self.eye_left.origin[0] + self.eye_left.pupil.x + self.x_add
+            y = self.eye_left.origin[1] + self.eye_left.pupil.y + self.y_add
             return (x, y)
 
     def pupil_right_coords(self):
         """Returns the coordinates of the right pupil"""
         if self.pupils_located:
-            x = self.eye_right.origin[0] + self.eye_right.pupil.x
-            y = self.eye_right.origin[1] + self.eye_right.pupil.y
+            x = self.eye_right.origin[0] + self.eye_right.pupil.x + self.x_add
+            y = self.eye_right.origin[1] + self.eye_right.pupil.y + self.y_add
             return (x, y)
 
     def horizontal_ratio(self):
@@ -117,11 +119,11 @@ class GazeTracking(object):
             blinking_ratio = (self.eye_left.blinking + self.eye_right.blinking) / 2
             return blinking_ratio > 3.8
 
-    def extended_frame_annotation(self):
+    def extended_frame_annotation(self, original_frame):
         """
         Custom function not in original code
         """
-        self.frame = self.annotated_frame()
+        self.frame = self.annotated_frame(original_frame)
         text = ""
         if self.is_right():
             text = "Looking right"
@@ -138,12 +140,28 @@ class GazeTracking(object):
 
         cv2.putText(self.frame, text, (60, 60), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
         cv2.putText(self.frame, h_ratio, (60, height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
-        cv2.putText(self.frame, v_ratio, (width, height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
+        cv2.putText(self.frame, v_ratio, (int(0.8 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
         return self.frame
 
-    def annotated_frame(self):
+    def per_face_gaze(self, frame, face_net, eye_net):
+        """
+        Custom function 2
+        """
+        if self.process_this_frame:
+            try:
+                frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                faces = self._face_detector(frame_gray)
+                for face in faces:
+                    self.refresh(face, frame)
+                    frame = self.extended_frame_annotation(frame)
+            except:
+                pass
+        self.process_this_frame = not self.process_this_frame
+        return frame
+
+    def annotated_frame(self, original_frame):
         """Returns the main frame with pupils highlighted"""
-        frame = self.frame.copy()
+        frame = original_frame.copy()
 
         if self.pupils_located:
             color = (0, 255, 0)
