@@ -16,3 +16,12 @@ class EnterpriseShield:
             self.notify("Shoulder Surfing Detected", "Quick behind you!")
         else:
             self.notification_timer -= 1
+    def hide_windows(self):
+        os.system("""
+        osascript -e 'tell application "System Events" to set visible of every application process to false'
+                """)
+        
+    def show_windows(self):
+        os.system("""
+        osascript -e 'tell application "System Events" to set visible of every application process to true'
+                """)
