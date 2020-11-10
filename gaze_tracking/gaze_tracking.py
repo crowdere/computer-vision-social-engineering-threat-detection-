@@ -35,14 +35,18 @@ class GazeTracking(object):
     @property
     def pupils_located(self):
         """Check that the pupils have been located"""
-        try:
-            int(self.eye_left.pupil.x)
-            int(self.eye_left.pupil.y)
-            int(self.eye_right.pupil.x)
-            int(self.eye_right.pupil.y)
-            return True
-        except Exception:
-            return False
+        # try:
+        #     int(self.eye_left.pupil.x)
+        #     int(self.eye_left.pupil.y)
+        #     int(self.eye_right.pupil.x)
+        #     int(self.eye_right.pupil.y)
+        #
+        #
+        #     return True
+        # except Exception:
+        #     return False
+        return True
+        # Removing all checking for now, we want to do the check for each pupil at some point
 
     def _analyze(self, face, frame):
         """Detects the face and initialize Eye objects"""
@@ -148,15 +152,12 @@ class GazeTracking(object):
         Custom function 2
         """
         if self.process_this_frame:
-            try:
-                frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-                faces = self._face_detector(frame_gray)
-                for face in faces:
-                    self.refresh(face, frame)
-                    frame = self.extended_frame_annotation(frame)
-            except:
-                pass
-        self.process_this_frame = not self.process_this_frame
+            frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            faces = self._face_detector(frame_gray)
+            for face in faces:
+                self.refresh(face, frame)
+                frame = self.extended_frame_annotation(frame)
+        # self.process_this_frame = not self.process_this_frame
         return frame
 
     def annotated_frame(self, original_frame):
