@@ -11,3 +11,11 @@ yolov3.weights
 __pycache__/
 
 gaze_tracking/
+
+.ipynb_checkpoints/
+
+.vscode/
+
+6510_Project/
+
+face_detector.ipynb
