@@ -1,56 +1,46 @@
 import cv2
-from yolo_human_detect import HumanDetector
-from face_classifier import FaceDetector
-from opencv_eye_detection import EyeDetector
+import requests
+import numpy as np
 from security_features import EnterpriseShield
-from gaze_tracking.gaze_tracking import GazeTracking
-
-# Get a reference to webcam #0 (the default one)
-video_capture = cv2.VideoCapture(0)
-
-yolo_net = HumanDetector()
-face_net = FaceDetector()
-eye_net = EyeDetector()
-enterprise_shield = EnterpriseShield()
-gaze = GazeTracking()
+import base64
+import json
 
 
 def nothing():
     pass
 
-cv2.namedWindow('video')
-cv2.createTrackbar('threshold', 'video', 0, 255, nothing)
+
+def encode_image(current_frame):
+    return base64.b64encode(cv2.imencode('.jpg', current_frame)[1]).decode()
 
 
-def preprocess_frame(frame):
-    # Resize frame of video to 1/4 size for faster face recognition processing
-    small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
-    # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
-    return small_frame[:, :, ::-1]
+def decode_image(img_string):
+    jpg_original = base64.b64decode(img_string)
+    jpg_as_np = np.frombuffer(jpg_original, dtype=np.uint8)
+    return cv2.imdecode(jpg_as_np, flags=1)
 
 
-while True:
-    ret, frame = video_capture.read()
+if __name__ == '__main__':
+    video_capture = cv2.VideoCapture(0)
+    enterprise_shield = EnterpriseShield()
+    cv2.namedWindow('video')
 
-    rgb_small_frame = preprocess_frame(frame)
+    while True:
+        ret, frame = video_capture.read()
+        frame_json = {'image': encode_image(frame)}
+        response = requests.post(f'http://localhost:80/processImage', files=frame_json)
+        frame = decode_image(response.text)
+        # frame = decode_image(response.text)
 
-    # Face recognition
-    frame = face_net.process_frame(rgb_small_frame, frame)
+        cv2.imshow('video', frame)
 
-    # Human detection
-    frame = yolo_net.yolo_main(frame)
+        # check for unknown entiites and alert user every ~30 seconds or so
+        # if face_net.face_names != []:
+        #     enterprise_shield.notify_reset_timer(face_net.face_names[-1])
 
-    frame = gaze.per_face_gaze(frame, face_net, eye_net)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
 
-    cv2.imshow('video', frame)
-
-    # check for unknown entiites and alert user every ~30 seconds ish
-    if face_net.face_names != []:
-        enterprise_shield.notify_reset_timer(face_net.face_names[-1])
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-# Release handle to the webcam
-video_capture.release()
-cv2.destroyAllWindows()
+    # Release handle to the webcam
+    video_capture.release()
+    cv2.destroyAllWindows()

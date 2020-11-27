@@ -147,7 +147,7 @@ class GazeTracking(object):
         cv2.putText(self.frame, v_ratio, (int(0.8 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
         return self.frame
 
-    def per_face_gaze(self, frame, face_net, eye_net):
+    def per_face_gaze(self, frame):
         """
         Custom function 2
         """
