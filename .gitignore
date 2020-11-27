@@ -1,13 +1,10 @@
 
 .DS_Store
 
+6510_Project/parameters_prod.json
 .idea/
-
 detectron2-e883afb9afe2b5196b7cba7485583a1d063a9991
-
-detectron2-master
 yolov3.weights
-
 __pycache__/
-
 gaze_tracking/
+detectron2-master/
