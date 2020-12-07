@@ -48,15 +48,22 @@ def enterprise_shield_process_per_frame():
     # print(request.files['image'].read())
     frame = decode_image(request.files['image'].read())
 
+    width = int(0.9 * frame.shape[1])
+    height = int(0.9 * frame.shape[0])
+
     rgb_small_frame = preprocess_frame(frame)
 
     frame = face_net.process_frame(rgb_small_frame, frame)
 
-    frame = yolo_net.yolo_main(frame)
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net.face_names)
 
-    frame = gaze.per_face_gaze(frame)
+    frame = gaze.per_face_gaze(frame, yolo_net.risk_score, face_net.num_authorized)
 
-    return encode_image(frame)
+    if not yolo_net.process_this_frame:
+        cv2.putText(frame, "Risk Score: " + str(gaze.risk_score),
+                    (int(0.35 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
+
+    return json.dumps({"image" : encode_image(frame), "risk_score": gaze.risk_score})
 
 
 if __name__ == '__main__':

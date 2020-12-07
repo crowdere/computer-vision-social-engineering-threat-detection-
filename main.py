@@ -28,9 +28,14 @@ if __name__ == '__main__':
     while True:
         ret, frame = video_capture.read()
         frame_json = {'image': encode_image(frame)}
-        response = requests.post(f'http://localhost:80/processImage', files=frame_json)
-        frame = decode_image(response.text)
-        # frame = decode_image(response.text)
+        json_response = json.loads(requests.post(f'http://localhost:80/processImage', files=frame_json).text)
+
+        image_b64 = json_response['image']
+        risk_score = int(json_response['risk_score'])
+
+        frame = decode_image(image_b64)
+
+        enterprise_shield.unleash_defense(risk_score)
 
         cv2.imshow('video', frame)
 

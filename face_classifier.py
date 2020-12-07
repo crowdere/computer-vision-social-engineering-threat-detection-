@@ -14,6 +14,9 @@ class FaceDetector:
         self.face_names = []
         self.face_encodings = []
         self.process_this_frame = True
+        self.risk_score = 0
+        self.authorized_persons = ['Ahmad', 'Edward', 'Daniel-Craig']
+        self.num_authorized = 0
 
     def read_images(self):
         """
@@ -54,6 +57,7 @@ class FaceDetector:
         return face_names
 
     def process_frame(self, rgb_small_frame, frame):
+        self.risk_score = 0
         if self.process_this_frame:
             # Find all the faces and face encodings in the current frame of video
             self.face_locations = face_recognition.face_locations(rgb_small_frame)
@@ -67,6 +71,7 @@ class FaceDetector:
         Displaying results
         return: None
         """
+        self.risk_score_analysis()
         for (top, right, bottom, left), name in zip(self.face_locations, self.face_names):
             # Scale back up face locations since the frame we detected in was scaled to 1/4 size
             top *= 4
@@ -77,7 +82,7 @@ class FaceDetector:
             cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
             cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
             font = cv2.FONT_HERSHEY_DUPLEX
-            cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
+            cv2.putText(frame, name.replace('.jpg', ''), (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
         return frame
 
     def first_match(self, matches):
@@ -96,3 +101,13 @@ class FaceDetector:
             name = self.known_face_names[best_match_index]
             return name
         return 'Unknown'
+
+    def risk_score_analysis(self):
+        final_names = [name.replace('.jpg', '') for name in self.face_names]
+        for name in final_names:
+            if name in self.authorized_persons:
+                self.num_authorized += 1
+            elif name in self.known_face_names and name not in self.authorized_persons:
+                self.risk_score += 15
+            else:
+                self.risk_score += 25

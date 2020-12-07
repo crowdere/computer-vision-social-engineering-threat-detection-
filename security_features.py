@@ -4,6 +4,15 @@ class EnterpriseShield:
     def __init__(self):
         self.notification_timer = 0
 
+    def unleash_defense(self, risk_score):
+        if risk_score < 5:
+            pass
+        elif risk_score < 15:
+            self.notify_reset_timer()
+        elif risk_score < 25:
+            self.hide_windows()
+        elif risk_score < 50:
+            self.lock_screen()
 
     def notify(self, title, text):
         ''' executes apple script to generate system timer'''
@@ -12,9 +21,9 @@ class EnterpriseShield:
                   """.format(text, title))
 
 
-    def notify_reset_timer(self, name):
+    def notify_reset_timer(self):
         ''' Resets timer to show system notification '''
-        if self.notification_timer <= 0 and name.lower() == "unknown":
+        if self.notification_timer <= 0:
             self.notification_timer = 60
             self.notify("Shoulder Surfing Detected", "Quick behind you!")
         else:

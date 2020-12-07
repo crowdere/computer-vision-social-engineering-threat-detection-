@@ -7,6 +7,7 @@ class HumanDetector:
         self.classes = self.get_yolo_classes()
         self.outs = None
         self.process_this_frame = True
+        self.risk_score = 0
 
     def get_yolo_classes(self):
         with open('coco.names', 'r') as f:
@@ -57,6 +58,7 @@ class HumanDetector:
             i = i[0]
             box = boxes[i]
             if class_ids[i]==0:
+                self.risk_score += 5
                 label = str(self.classes[class_id])
                 cv2.rectangle(frame, (round(box[0]),round(box[1])),
                               (round(box[0]+box[2]),round(box[1]+box[3])), (0, 255, 0), 2)
@@ -64,10 +66,12 @@ class HumanDetector:
                             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
         return frame
 
-    def yolo_main(self, frame):
+    def yolo_main(self, frame, risk_score, face_names):
+        self.risk_score = risk_score - int(len(face_names) * 5)
         if self.process_this_frame:
             self.make_yolo_prediction(frame)
             boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
             frame = self.draw_yolo_result(frame, boxes, confidences, class_ids, class_id)
         self.process_this_frame = not self.process_this_frame
         return frame
+
