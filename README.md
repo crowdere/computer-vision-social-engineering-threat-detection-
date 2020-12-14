@@ -50,6 +50,13 @@ The following unauthorized employee tried to access their senior manager's machi
 Note that the green box represents a human detection, the red box represents a facial recognition and the green 
 crosses represent a gaze detection and track. 
 
+<h2 style="color: #3a7aad">Presentation Video</h2>
+
+Please click on the image below to view the presentation video on YouTube.
+
+[![](http://img.youtube.com/vi/0QWvsMx73jA/0.jpg)](http://www.youtube.com/watch?v=0QWvsMx73jA "The Enterprise Shield - MCTI 6510 Project Presentation")
+
+
 <h3 style="color: #3a7aad">Full Links to References</h3>
 
 1. https://github.com/ageitgey/face_recognition
