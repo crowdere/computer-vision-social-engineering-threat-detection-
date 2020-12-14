@@ -45,7 +45,8 @@ The following unauthorized employee tried to access their senior manager's machi
     <img src="doc_images/unauthorized_employee.jpg"/>
 </center>
 
-
+Note that the green box represents a human detection, the red box represents a facial recognition and the green 
+crosses represent a gaze detection and track. 
 
 <h3 style="color: #3a7aad">Full Links to References</h3>
 
