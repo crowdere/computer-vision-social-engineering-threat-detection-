@@ -40,6 +40,7 @@ class HumanDetector:
         Width = frame.shape[1]
         Height = frame.shape[0]
         for out in self.outs:
+            
             for detection in out:
                 scores = detection[5:]
                 class_id = np.argmax(scores)

@@ -7,11 +7,11 @@ class EnterpriseShield:
     def unleash_defense(self, risk_score):
         if risk_score < 5:
             pass
-        elif risk_score < 15:
+        elif risk_score <= 15:
             self.notify_reset_timer()
-        elif risk_score < 25:
+        elif risk_score <= 25:
             self.hide_windows()
-        elif risk_score < 50:
+        elif risk_score <= 50:
             self.lock_screen()
 
     def notify(self, title, text):
