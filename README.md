@@ -1,4 +1,6 @@
-<h1 style="color: #3a7aad">The Enterprise Shield - MCTI 6510</h1>
+<img src="doc_images/EnterpriseShield.jpg" width="400" height="150" align="right"/>
+
+<h1 style="color: #3a7aad">The Enterprise Shield</h1>
 <h2 style="color: #3a7aad">A Defense Against Shoulder Attacks in Enterprises</h2>
 <h4 style="color: #3a7aad">by Edward Crowder and Ahmad Chaiban</h4>
 
