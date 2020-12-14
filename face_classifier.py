@@ -15,7 +15,7 @@ class FaceDetector:
         self.face_encodings = []
         self.process_this_frame = True
         self.risk_score = 0
-        self.authorized_persons = ['Ahmad', 'Edward', 'Daniel-Craig']
+        self.authorized_persons = ['Edward', 'Daniel-Craig']
         self.num_authorized = 0
 
     def read_images(self):
