@@ -17,6 +17,7 @@ class FaceDetector:
         self.risk_score = 0
         self.authorized_persons = ['Edward', 'Daniel-Craig']
         self.num_authorized = 0
+        self.num_unauthorized = 0
 
     def read_images(self):
         """
@@ -105,9 +106,14 @@ class FaceDetector:
     def risk_score_analysis(self):
         final_names = [name.replace('.jpg', '') for name in self.face_names]
         for name in final_names:
-            if name in self.authorized_persons:
-                self.num_authorized += 1
-            elif name in self.known_face_names and name not in self.authorized_persons:
-                self.risk_score += 15
-            else:
+            if name.lower() == 'unknown':
                 self.risk_score += 25
+            elif name in self.authorized_persons:
+                self.num_authorized += 1
+            else:
+                self.risk_score += 15
+                self.num_unauthorized += 1
+
+    def dump(self):
+        self.num_authorized = 0
+        self.num_unauthorized = 0

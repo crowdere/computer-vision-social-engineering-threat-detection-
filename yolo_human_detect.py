@@ -58,7 +58,8 @@ class HumanDetector:
         for i in indices:
             i = i[0]
             box = boxes[i]
-            if class_ids[i]==0:
+            if class_ids[i] == 0:
+                # Adding here to re-increase risk score
                 self.risk_score += 5
                 label = str(self.classes[class_id])
                 cv2.rectangle(frame, (round(box[0]),round(box[1])),
@@ -67,12 +68,14 @@ class HumanDetector:
                             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
         return frame
 
-    def yolo_main(self, frame, risk_score, face_names):
-        self.risk_score = risk_score - int(len(face_names) * 5)
+    def yolo_main(self, frame, risk_score, face_net):
+        self.risk_score = risk_score - (face_net.num_unauthorized + face_net.num_authorized) * 5
         if self.process_this_frame:
             self.make_yolo_prediction(frame)
             boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
             frame = self.draw_yolo_result(frame, boxes, confidences, class_ids, class_id)
         self.process_this_frame = not self.process_this_frame
+        if self.risk_score < 0:
+            self.risk_score = 0
         return frame
 

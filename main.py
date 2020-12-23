@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
         frame = decode_image(image_b64)
 
-        enterprise_shield.unleash_defense(risk_score)
+        # enterprise_shield.unleash_defense(risk_score)
 
         cv2.imshow('video', frame)
 

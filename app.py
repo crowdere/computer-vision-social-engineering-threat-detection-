@@ -55,15 +55,19 @@ def enterprise_shield_process_per_frame():
 
     frame = face_net.process_frame(rgb_small_frame, frame)
 
-    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net.face_names)
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
 
-    frame = gaze.per_face_gaze(frame, yolo_net.risk_score, face_net.num_authorized)
+    frame = gaze.per_face_gaze(frame, yolo_net.risk_score, face_net)
 
     if not yolo_net.process_this_frame:
-        cv2.putText(frame, "Risk Score: " + str(gaze.risk_score),
-                    (int(0.35 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
+        gaze.final_risk_score = str(gaze.risk_score)
 
-    return json.dumps({"image" : encode_image(frame), "risk_score": gaze.risk_score})
+    cv2.rectangle(frame, (int(0.35 * width), int(height*1.01)), (int(0.35 * width + 0.45*width), int(height*1.01 - 60)), (0, 0, 0), -1)
+
+    cv2.putText(frame, "Risk Score: " + gaze.final_risk_score,
+                (int(0.35 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 255, 255), 2)
+    face_net.dump()
+    return json.dumps({"image": encode_image(frame), "risk_score": gaze.risk_score})
 
 
 if __name__ == '__main__':

@@ -19,6 +19,7 @@ class GazeTracking(object):
         self.eye_right = None
         self.calibration = Calibration()
         self.risk_score = 0
+        self.final_risk_score = ''
 
         # _face_detector is used to detect faces
         self._face_detector = dlib.get_frontal_face_detector()
@@ -148,7 +149,7 @@ class GazeTracking(object):
         # cv2.putText(self.frame, v_ratio, (int(0.8 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 2)
         return self.frame
 
-    def per_face_gaze(self, frame, risk_score, face_names):
+    def per_face_gaze(self, frame, risk_score, face_net):
         """
         Custom function 2
         """
@@ -161,6 +162,7 @@ class GazeTracking(object):
                 self.refresh(face, frame)
                 frame = self.extended_frame_annotation(frame)
         # self.process_this_frame = not self.process_this_frame
+            self.risk_score_analysis(faces, face_net.num_authorized)
         return frame
 
     def annotated_frame(self, original_frame):
@@ -178,6 +180,6 @@ class GazeTracking(object):
 
         return frame
 
-    def risk_score_analysis(self, faces, authorized_face_names):
-        self.risk_score += int(abs(authorized_face_names - len(faces)) * 10)
+    def risk_score_analysis(self, faces, authorized):
+        self.risk_score += abs(len(faces) - authorized) * 10
 
