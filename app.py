@@ -22,7 +22,7 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/processImage": {"origins": "*"}})
 
 # download and replace newest list of authorized people
-AzureConnector.updateKnownPeople()
+AzureConnector.update_known_people()
 
 yolo_net = HumanDetector()
 face_net = FaceDetector()

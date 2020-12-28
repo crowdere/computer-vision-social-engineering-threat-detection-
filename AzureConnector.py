@@ -1,17 +1,18 @@
-import sys  # For simplicity, we'll read config file from 1st CLI param sys.argv[1]
 import json
 import logging
 import requests
 import msal
 
+# load relative parameter file
 config = json.load(open('parameters_prod.json'))
 
-def updateKnownPeople():
+
+def update_known_people():
     # Create a preferably long-lived app instance which maintains a token cache.
     app = msal.ConfidentialClientApplication(
         config["client_id"], authority=config["authority"],
         client_credential=config["secret"],
-        )
+    )
     # The pattern to acquire a token looks like this.
     result = None
     # Firstly, looks up a token from cache
@@ -30,18 +31,17 @@ def updateKnownPeople():
             headers={'Authorization': 'Bearer ' + result['access_token']}, ).json()
         print("Updating Profiles - Graph API call result: ")
 
-        graphList = graph_data.get('value')
-        for x in graphList:
-            if(x["companyName"] == "6510"):
+        graph_list = graph_data.get('value')
+        for x in graph_list:
+            if x["companyName"] == "6510":
                 name = x["userPrincipalName"]
                 name = name.split("@")
-                print(type(name))
                 photo_data = requests.get(
-                    config["endpoint_base"]+x["id"]+config["endpoint_photo"],
+                    config["endpoint_base"] + x["id"] + config["endpoint_photo"],
                     headers={'Authorization': 'Bearer ' + result['access_token']}, )
                 print(photo_data)
-
-                file = open("known_people/" + name[0]+".jpg", "wb")
+                # Write photo to directory with username as filename
+                file = open("known_people/" + name[0] + ".jpg", "wb")
                 file.write(photo_data.content)
                 file.close()
     else:
