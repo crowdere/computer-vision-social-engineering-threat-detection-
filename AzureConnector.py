@@ -33,7 +33,6 @@ def updateKnownPeople():
         graphList = graph_data.get('value')
         for x in graphList:
             if(x["companyName"] == "6510"):
-                #print(x["id"], x["userPrincipalName"], x["department"], x["companyName"], x["jobTitle"])
                 name = x["userPrincipalName"]
                 name = name.split("@")
                 print(type(name))
@@ -49,5 +48,3 @@ def updateKnownPeople():
         print(result.get("error"))
         print(result.get("error_description"))
         print(result.get("correlation_id"))  # You may need this when reporting a bug
-
-updateKnownPeople()
