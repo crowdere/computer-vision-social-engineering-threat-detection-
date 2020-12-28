@@ -4,6 +4,10 @@ import numpy as np
 from security_features import EnterpriseShield
 import base64
 import json
+import platform
+
+# Windows users should set their execution policy to run powershell scripts
+operating_system = platform.platform()
 
 
 def nothing():
@@ -36,7 +40,10 @@ if __name__ == '__main__':
 
         frame = decode_image(image_b64)
 
-        # enterprise_shield.unleash_defense(risk_score)
+        if 'windows' in operating_system.lower():
+            enterprise_shield.unleash_defense_windows(risk_score)
+        else:
+            enterprise_shield.unleash_defense_mac(risk_score)
 
         cv2.imshow('video', frame)
 

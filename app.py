@@ -2,6 +2,8 @@ import cv2
 import json
 import numpy as np
 import AzureConnector
+# For production server
+from waitress import serve
 
 from yolo_human_detect import HumanDetector
 from face_classifier import FaceDetector
@@ -75,4 +77,5 @@ def enterprise_shield_process_per_frame():
 
 
 if __name__ == '__main__':
-    app.run(port=80)
+    # app.run(port=80)
+    serve(app, host='0.0.0.0', port=80)
