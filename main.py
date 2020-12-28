@@ -2,7 +2,6 @@ import cv2
 import requests
 import numpy as np
 from security_features import EnterpriseShield
-import AzureConnector
 import base64
 import json
 
@@ -24,9 +23,6 @@ def decode_image(img_string):
 if __name__ == '__main__':
     video_capture = cv2.VideoCapture(0)
     enterprise_shield = EnterpriseShield()
-
-    #download and replace newest list of authorized people
-    AzureConnector.updateKnownPeople()
 
     cv2.namedWindow('video')
 
