@@ -23,6 +23,7 @@ def decode_image(img_string):
 if __name__ == '__main__':
     video_capture = cv2.VideoCapture(0)
     enterprise_shield = EnterpriseShield()
+
     cv2.namedWindow('video')
 
     while True:

@@ -1,4 +1,10 @@
-numpy
-opencv-python
+numpy~=1.18.5
+opencv-python~=4.4.0.44
 face_recognition
 dlib == 19.16.0
+
+Flask~=1.1.2
+matplotlib~=3.3.0
+detectron2~=0.2.1
+requests~=2.22.0
+msal~=1.6.0

@@ -1,6 +1,7 @@
 import cv2
 import json
 import numpy as np
+import AzureConnector
 
 from yolo_human_detect import HumanDetector
 from face_classifier import FaceDetector
@@ -19,6 +20,9 @@ import base64
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/processImage": {"origins": "*"}})
+
+# download and replace newest list of authorized people
+AzureConnector.update_known_people()
 
 yolo_net = HumanDetector()
 face_net = FaceDetector()

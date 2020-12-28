@@ -18,3 +18,5 @@ detectron2-master/
 face_detector.ipynb
 
 recordings/
+
+parameters_prod.json
