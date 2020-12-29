@@ -68,7 +68,7 @@ The following figure summarizes the working pipeline.
 The following unauthorized employee tried to access their senior manager's machine in disguise to no avail!
 
 <center>
-    <img src="doc_images/unauthorized_employee.jpg"/>
+    <img src="doc_images/unauthorized_employee_3.png"/>
 </center>
 
 Note that the green box represents a human detection, the red box represents a facial recognition and the green 
