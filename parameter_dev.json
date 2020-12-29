@@ -1,8 +1,0 @@
-{
-    "authority": "https://login.microsoftonline.com/xxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "client_id": "xxxxxxx-xxxxxxx-xxxxxxx-xxxx",
-    "scope": [ "https://graph.microsoft.com/.default" ],
-    "secret": "xxxx.xxxxx.xxxx.xxxxxxxxxxxxxxxxx",
-    "endpoint": "https://graph.microsoft.com/beta/users/xxxxxxxxxxxxxxxxxxxxx"
-  }
-  

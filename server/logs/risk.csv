@@ -1,0 +1,1215 @@
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609242484.0089018,b'ahmadchaiban',25,0,1;
+INFO:root:1609242484.3611689,b'ahmadchaiban',25,0,1;
+INFO:root:1609242484.928889,b'ahmadchaiban',25,0,1;
+INFO:root:1609242485.230541,b'ahmadchaiban',25,0,1;
+INFO:root:1609242485.758945,b'ahmadchaiban',25,0,1;
+INFO:root:1609242486.012091,b'ahmadchaiban',25,0,1;
+INFO:root:1609242486.517466,b'ahmadchaiban',25,0,1;
+INFO:root:1609242486.7993789,b'ahmadchaiban',25,0,1;
+INFO:root:1609242487.3175879,b'ahmadchaiban',25,0,1;
+INFO:root:1609242487.5890439,b'ahmadchaiban',25,0,1;
+INFO:root:1609242488.177742,b'ahmadchaiban',25,0,1;
+INFO:root:1609242488.547767,b'ahmadchaiban',25,0,1;
+INFO:root:1609242489.111598,b'ahmadchaiban',25,0,1;
+INFO:root:1609242489.435232,b'ahmadchaiban',25,0,1;
+INFO:root:1609242489.967202,b'ahmadchaiban',25,0,1;
+INFO:root:1609242490.2528799,b'ahmadchaiban',25,0,1;
+INFO:root:1609242490.80083,b'ahmadchaiban',25,0,1;
+INFO:root:1609242491.0793731,b'ahmadchaiban',25,0,1;
+INFO:root:1609242491.62655,b'ahmadchaiban',25,0,1;
+INFO:root:1609242491.9843562,b'ahmadchaiban',25,0,1;
+INFO:root:1609242492.526027,b'ahmadchaiban',25,0,1;
+INFO:root:1609242492.8776782,b'ahmadchaiban',25,0,1;
+INFO:root:1609242493.438695,b'ahmadchaiban',25,0,1;
+INFO:root:1609242493.7273211,b'ahmadchaiban',25,0,1;
+INFO:root:1609242494.262131,b'ahmadchaiban',25,0,1;
+INFO:root:1609242494.5498822,b'ahmadchaiban',25,0,1;
+INFO:root:1609242495.045737,b'ahmadchaiban',25,0,1;
+INFO:root:1609242495.349024,b'ahmadchaiban',25,0,1;
+INFO:root:1609242495.893918,b'ahmadchaiban',25,0,1;
+INFO:root:1609242496.2040372,b'ahmadchaiban',25,0,1;
+INFO:root:1609242496.702422,b'ahmadchaiban',25,0,1;
+INFO:root:1609242496.9964318,b'ahmadchaiban',25,0,1;
+INFO:root:1609242497.489752,b'ahmadchaiban',25,0,1;
+INFO:root:1609242497.778198,b'ahmadchaiban',25,0,1;
+INFO:root:1609242498.288584,b'ahmadchaiban',25,0,1;
+INFO:root:1609242498.580294,b'ahmadchaiban',25,0,1;
+INFO:root:1609242499.1200051,b'ahmadchaiban',25,0,1;
+INFO:root:1609242499.4525251,b'ahmadchaiban',25,0,1;
+INFO:root:1609242499.974707,b'ahmadchaiban',25,0,1;
+INFO:root:1609242500.273119,b'ahmadchaiban',25,0,1;
+INFO:root:1609242500.870047,b'ahmadchaiban',25,0,1;
+INFO:root:1609242501.1984692,b'ahmadchaiban',25,0,1;
+INFO:root:Timestamp,username,risk score,background actors,unauthorized detections
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:Timestamp,username,risk score,background actors,unauthorized detections
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609244013.784734,b'ahmadchaiban',25,0,1
+INFO:root:1609244014.276526,b'ahmadchaiban',25,0,1
+INFO:root:1609244014.8385868,b'ahmadchaiban',25,0,1
+INFO:root:1609244015.2098,b'ahmadchaiban',25,0,1
+INFO:root:1609244015.8277068,b'ahmadchaiban',25,0,1
+INFO:root:1609244016.159327,b'ahmadchaiban',25,0,1
+INFO:root:1609244016.765397,b'ahmadchaiban',25,0,1
+INFO:root:1609244017.0763772,b'ahmadchaiban',25,0,1
+INFO:root:1609244017.6250439,b'ahmadchaiban',25,0,1
+INFO:root:1609244017.924352,b'ahmadchaiban',25,0,1
+INFO:root:1609244018.454931,b'ahmadchaiban',25,0,1
+INFO:root:1609244018.7186189,b'ahmadchaiban',25,0,1
+INFO:root:1609244019.244148,b'ahmadchaiban',25,0,1
+INFO:root:1609244019.5469482,b'ahmadchaiban',25,0,1
+INFO:root:1609244020.059424,b'ahmadchaiban',25,0,1
+INFO:root:1609244020.331014,b'ahmadchaiban',25,0,1
+INFO:root:1609244020.8620648,b'ahmadchaiban',25,0,1
+INFO:root:1609244021.112586,b'ahmadchaiban',25,0,1
+INFO:root:1609244021.6212559,b'ahmadchaiban',25,0,1
+INFO:root:1609244021.9138691,b'ahmadchaiban',25,0,1
+INFO:root:1609244022.405653,b'ahmadchaiban',25,0,1
+INFO:root:1609244022.66857,b'ahmadchaiban',25,0,1
+INFO:root:1609244023.173986,b'ahmadchaiban',25,0,1
+INFO:root:1609244023.450571,b'ahmadchaiban',25,0,1
+INFO:root:1609244023.9548259,b'ahmadchaiban',25,0,1
+INFO:root:1609244024.254081,b'ahmadchaiban',25,0,1
+INFO:root:1609244024.753066,b'ahmadchaiban',25,0,1
+INFO:root:1609244025.011584,b'ahmadchaiban',25,0,1
+INFO:root:1609244025.5121,b'ahmadchaiban',25,0,1
+INFO:root:1609244025.798906,b'ahmadchaiban',25,0,1
+INFO:root:1609244026.2969432,b'ahmadchaiban',25,0,1
+INFO:root:1609244026.585207,b'ahmadchaiban',25,0,1
+INFO:root:1609244027.155146,b'ahmadchaiban',25,0,1
+INFO:root:1609244027.4564102,b'ahmadchaiban',25,0,1
+INFO:root:1609244028.008128,b'ahmadchaiban',25,0,1
+INFO:root:1609244028.320239,b'ahmadchaiban',25,0,1
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609244132.941072,b'ahmadchaiban',25,0,1
+INFO:root:1609244133.245386,b'ahmadchaiban',25,0,1
+INFO:root:1609244133.772247,b'ahmadchaiban',25,0,1
+INFO:root:1609244134.065706,b'ahmadchaiban',25,0,1
+INFO:root:1609244134.599829,b'ahmadchaiban',25,0,1
+INFO:root:1609244134.912034,b'ahmadchaiban',25,0,1
+INFO:root:1609244135.5981839,b'ahmadchaiban',25,0,1
+INFO:root:1609244136.014486,b'ahmadchaiban',25,0,1
+INFO:root:1609244136.643949,b'ahmadchaiban',25,0,1
+INFO:root:1609244137.015073,b'ahmadchaiban',25,0,1
+INFO:root:1609244137.565511,b'ahmadchaiban',25,0,1
+INFO:root:1609244137.859415,b'ahmadchaiban',25,0,1
+INFO:root:1609244138.396171,b'ahmadchaiban',25,0,1
+INFO:root:1609244138.690746,b'ahmadchaiban',25,0,1
+INFO:root:1609244139.177187,b'ahmadchaiban',25,0,1
+INFO:root:1609244139.4719648,b'ahmadchaiban',25,0,1
+INFO:root:1609244140.0410812,b'ahmadchaiban',25,0,1
+INFO:root:1609244140.35511,b'ahmadchaiban',25,0,1
+INFO:root:1609244140.8920162,b'ahmadchaiban',25,0,1
+INFO:root:1609244141.188194,b'ahmadchaiban',25,0,1
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609253321.9546292,b'ahmadchaiban',0,0,0
+INFO:root:1609253322.134285,b'ahmadchaiban',0,0,0
+INFO:root:1609253322.62192,b'ahmadchaiban',5,1,0
+INFO:root:1609253322.784776,b'ahmadchaiban',5,1,0
+INFO:root:1609253323.1372302,b'ahmadchaiban',5,1,0
+INFO:root:1609253323.322133,b'ahmadchaiban',5,1,0
+INFO:root:1609253323.734848,b'ahmadchaiban',15,0,1
+INFO:root:1609253323.9184132,b'ahmadchaiban',15,0,1
+INFO:root:1609253324.4631839,b'ahmadchaiban',15,0,1
+INFO:root:1609253324.6195168,b'ahmadchaiban',15,0,1
+INFO:root:1609253325.0409222,b'ahmadchaiban',15,0,1
+INFO:root:1609253325.199127,b'ahmadchaiban',15,0,1
+INFO:root:1609253326.0134542,b'ahmadchaiban',15,0,1
+INFO:root:1609253326.18707,b'ahmadchaiban',15,0,1
+INFO:root:1609253326.666066,b'ahmadchaiban',25,0,1
+INFO:root:1609253326.924413,b'ahmadchaiban',25,0,1
+INFO:root:1609253327.44065,b'ahmadchaiban',25,0,1
+INFO:root:1609253327.7114758,b'ahmadchaiban',25,0,1
+INFO:root:1609253328.109459,b'ahmadchaiban',25,0,1
+INFO:root:1609253328.378363,b'ahmadchaiban',25,0,1
+INFO:root:1609253328.871181,b'ahmadchaiban',25,0,1
+INFO:root:1609253329.123183,b'ahmadchaiban',25,0,1
+INFO:root:1609253329.665386,b'ahmadchaiban',25,0,1
+INFO:root:1609253329.962187,b'ahmadchaiban',25,0,1
+INFO:root:1609253330.3700721,b'ahmadchaiban',15,0,1
+INFO:root:1609253330.545887,b'ahmadchaiban',15,0,1
+INFO:root:1609253330.969296,b'ahmadchaiban',15,0,1
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609253447.104075,b'ahmadchaiban',0,0,0
+INFO:root:1609253447.2969239,b'ahmadchaiban',0,0,0
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:root:1609253514.046557,b'ahmadchaiban',0,0,2
+INFO:root:1609253514.2451682,b'ahmadchaiban',0,0,0
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:root:1609253620.770144,b'ahmadchaiban',0,0,0
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:53:40] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+INFO:root:1609253620.961317,b'ahmadchaiban',0,0,0
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:53:40] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:53:41] "[35m[1mPOST /processImage HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:54:19] "[35m[1mPOST /processImage HTTP/1.1[0m" 500 -
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:root:1609253744.410167,b'ahmadchaiban',0,0,0
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:55:44] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+INFO:root:1609253744.61379,b'ahmadchaiban',0,0,0
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:55:44] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:55:45] "[35m[1mPOST /processImage HTTP/1.1[0m" 500 -
+INFO:root:1609253841.893742,b'ahmadchaiban',5,1,2
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:57:21] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+INFO:root:1609253842.243007,b'ahmadchaiban',5,1,1
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:57:22] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:57:22] "[35m[1mPOST /processImage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:57:59] "[31m[1mGET /processImage HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:57:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:58:07] "[35m[1mPOST /processImage HTTP/1.1[0m" 500 -
+INFO:root:1609253916.2827258,b'ahmadchaiban',0,1,3
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:58:36] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+INFO:root:1609253916.5419788,b'ahmadchaiban',0,1,1
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:58:36] "[37mPOST /processImage HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:werkzeug:127.0.0.1 - - [29/Dec/2020 17:58:37] "[35m[1mPOST /processImage HTTP/1.1[0m" 500 -
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609254070.425726,b'ahmadchaiban',0,0,0
+INFO:root:1609254070.602468,b'ahmadchaiban',0,0,0
+ERROR:app:Exception on /processImage [POST]
+Traceback (most recent call last):
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ahmadchaiban/opt/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 81, in enterprise_shield_process_per_frame
+    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 78, in yolo_main
+    boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
+  File "/Users/ahmadchaiban/Desktop/Guelph/6510_Project/server/models/yolo_human_detect.py", line 51, in get_bounding_box
+    x, y, w, h = self.extract_box(detection, Width, Height)
+ValueError: not enough values to unpack (expected 4, got 3)
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609254270.59072,b'ahmadchaiban',0,0,0
+INFO:root:1609254270.7879739,b'ahmadchaiban',0,0,0
+INFO:root:1609254271.198049,b'ahmadchaiban',25,0,1
+INFO:root:1609254271.3680708,b'ahmadchaiban',25,0,1
+INFO:root:1609254271.7814012,b'ahmadchaiban',25,0,1
+INFO:root:1609254271.951591,b'ahmadchaiban',25,0,1
+INFO:root:1609254272.359468,b'ahmadchaiban',25,0,1
+INFO:root:1609254272.532083,b'ahmadchaiban',25,0,1
+INFO:root:1609254272.9584231,b'ahmadchaiban',25,0,1
+INFO:root:1609254273.112677,b'ahmadchaiban',25,0,1
+INFO:root:1609254273.518213,b'ahmadchaiban',25,0,1
+INFO:root:1609254273.662515,b'ahmadchaiban',25,0,1
+INFO:root:1609254274.080202,b'ahmadchaiban',25,0,1
+INFO:root:1609254274.263621,b'ahmadchaiban',25,0,1
+INFO:root:1609254274.667823,b'ahmadchaiban',25,0,1
+INFO:root:1609254274.830333,b'ahmadchaiban',25,0,1
+INFO:root:1609254275.2364092,b'ahmadchaiban',25,0,1
+INFO:root:1609254275.4111,b'ahmadchaiban',25,0,1
+INFO:root:1609254275.833299,b'ahmadchaiban',15,0,1
+INFO:root:1609254276.0832798,b'ahmadchaiban',15,0,1
+INFO:root:1609254276.490743,b'ahmadchaiban',10,2,0
+INFO:root:1609254276.6747992,b'ahmadchaiban',10,2,0
+INFO:root:1609254277.093784,b'ahmadchaiban',25,0,1
+INFO:root:1609254277.255657,b'ahmadchaiban',25,0,1
+INFO:root:1609254277.658287,b'ahmadchaiban',25,0,1
+INFO:root:1609254277.834965,b'ahmadchaiban',25,0,1
+INFO:root:1609254278.240532,b'ahmadchaiban',25,0,1
+INFO:root:1609254278.387161,b'ahmadchaiban',25,0,1
+INFO:root:1609254278.791202,b'ahmadchaiban',30,1,1
+INFO:root:1609254278.959624,b'ahmadchaiban',30,1,1
+INFO:root:1609254279.393832,b'ahmadchaiban',25,0,1
+INFO:root:1609254279.557838,b'ahmadchaiban',25,0,1
+INFO:root:1609254279.954668,b'ahmadchaiban',30,1,1
+INFO:root:1609254280.109112,b'ahmadchaiban',30,1,1
+INFO:root:1609254280.510819,b'ahmadchaiban',15,0,1
+INFO:root:1609254280.655217,b'ahmadchaiban',15,0,1
+INFO:root:1609254281.061852,b'ahmadchaiban',25,0,1
+INFO:root:1609254281.204309,b'ahmadchaiban',25,0,1
+INFO:root:1609254281.6177652,b'ahmadchaiban',25,0,1
+INFO:root:1609254281.7586071,b'ahmadchaiban',25,0,1
+INFO:root:1609254282.165969,b'ahmadchaiban',25,0,1
+INFO:root:1609254282.3379781,b'ahmadchaiban',25,0,1
+INFO:root:1609254282.7133598,b'ahmadchaiban',30,1,1
+INFO:root:1609254282.861388,b'ahmadchaiban',30,1,1
+INFO:root:1609254283.270744,b'ahmadchaiban',30,1,1
+INFO:root:1609254283.449884,b'ahmadchaiban',30,1,1
+INFO:root:1609254283.839978,b'ahmadchaiban',25,0,1
+INFO:root:1609254283.991851,b'ahmadchaiban',25,0,1
+INFO:root:1609254284.36083,b'ahmadchaiban',30,1,1
+INFO:root:1609254284.4995022,b'ahmadchaiban',30,1,1
+INFO:root:1609254284.886674,b'ahmadchaiban',25,0,1
+INFO:root:1609254285.021823,b'ahmadchaiban',25,0,1
+INFO:root:1609254285.3897321,b'ahmadchaiban',25,0,1
+INFO:root:1609254285.5435698,b'ahmadchaiban',25,0,1
+INFO:root:1609254285.9299881,b'ahmadchaiban',30,1,1
+INFO:root:1609254286.084388,b'ahmadchaiban',30,1,1
+INFO:root:1609254286.452111,b'ahmadchaiban',15,0,1
+INFO:root:1609254286.603016,b'ahmadchaiban',15,0,1
+INFO:root:1609254286.980582,b'ahmadchaiban',15,0,1
+INFO:root:1609254287.133211,b'ahmadchaiban',15,0,1
+INFO:root:1609254287.543964,b'ahmadchaiban',25,0,1
+INFO:root:1609254287.704552,b'ahmadchaiban',25,0,1
+INFO:root:1609254288.082819,b'ahmadchaiban',25,0,1
+INFO:root:1609254288.2228422,b'ahmadchaiban',25,0,1
+INFO:root:1609254288.6166131,b'ahmadchaiban',25,0,1
+INFO:root:1609254288.772972,b'ahmadchaiban',25,0,1
+INFO:root:1609254289.173342,b'ahmadchaiban',15,0,1
+INFO:root:1609254289.324478,b'ahmadchaiban',15,0,1
+INFO:root:1609254289.694991,b'ahmadchaiban',15,0,1
+INFO:root:1609254289.851939,b'ahmadchaiban',15,0,1
+INFO:root:1609254290.242721,b'ahmadchaiban',25,0,1
+INFO:root:1609254290.3979461,b'ahmadchaiban',25,0,1
+INFO:root:1609254290.79718,b'ahmadchaiban',25,0,1
+INFO:root:1609254290.9466822,b'ahmadchaiban',25,0,1
+INFO:root:1609254291.309073,b'ahmadchaiban',15,0,1
+INFO:root:1609254291.4616792,b'ahmadchaiban',15,0,1
+INFO:root:1609254291.832462,b'ahmadchaiban',25,0,1
+INFO:root:1609254291.983527,b'ahmadchaiban',25,0,1
+INFO:root:1609254292.350682,b'ahmadchaiban',25,0,1
+INFO:root:1609254292.501169,b'ahmadchaiban',25,0,1
+INFO:root:1609254292.8680441,b'ahmadchaiban',25,0,1
+INFO:root:1609254293.0157719,b'ahmadchaiban',25,0,1
+INFO:root:1609254293.428797,b'ahmadchaiban',25,0,1
+INFO:root:1609254293.604884,b'ahmadchaiban',25,0,1
+INFO:root:1609254294.011306,b'ahmadchaiban',25,0,1
+INFO:root:1609254294.160705,b'ahmadchaiban',25,0,1
+INFO:root:1609254294.596062,b'ahmadchaiban',25,0,1
+INFO:root:1609254294.7583869,b'ahmadchaiban',25,0,1
+INFO:root:1609254295.162444,b'ahmadchaiban',25,0,1
+INFO:root:1609254295.325351,b'ahmadchaiban',25,0,1
+INFO:root:1609254295.8956869,b'ahmadchaiban',25,0,1
+INFO:root:1609254296.087232,b'ahmadchaiban',25,0,1
+INFO:root:1609254296.5390432,b'ahmadchaiban',25,0,1
+INFO:root:1609254296.703536,b'ahmadchaiban',25,0,1
+INFO:root:1609254297.167785,b'ahmadchaiban',25,0,1
+INFO:root:1609254297.320253,b'ahmadchaiban',25,0,1
+INFO:root:1609254297.765229,b'ahmadchaiban',25,0,1
+INFO:root:1609254297.944959,b'ahmadchaiban',25,0,1
+INFO:root:1609254298.3900878,b'ahmadchaiban',25,0,1
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1609254379.3857868,b'ahmadchaiban',0,0,0
+INFO:root:1609254379.568479,b'ahmadchaiban',0,0,0
+INFO:root:1609254379.965944,b'ahmadchaiban',15,0,1
+INFO:root:1609254380.117954,b'ahmadchaiban',15,0,1
+INFO:root:1609254380.525543,b'ahmadchaiban',25,0,1
+INFO:root:1609254380.661663,b'ahmadchaiban',25,0,1
+INFO:root:1609254381.033796,b'ahmadchaiban',25,0,1
+INFO:root:1609254381.1917708,b'ahmadchaiban',25,0,1
+INFO:root:1609254381.599381,b'ahmadchaiban',25,0,1
+INFO:root:1609254381.7699578,b'ahmadchaiban',25,0,1
+INFO:root:1609254382.190988,b'ahmadchaiban',25,0,1
+INFO:root:1609254382.348421,b'ahmadchaiban',25,0,1
+INFO:root:1609254382.802891,b'ahmadchaiban',25,0,1
+INFO:root:1609254383.024471,b'ahmadchaiban',25,0,1
+INFO:root:1609254383.46874,b'ahmadchaiban',25,0,1
+INFO:root:1609254383.6745322,b'ahmadchaiban',25,0,1
+INFO:root:1609254384.1241229,b'ahmadchaiban',25,0,1
+INFO:root:1609254384.282764,b'ahmadchaiban',25,0,1
+INFO:root:1609254384.704134,b'ahmadchaiban',25,0,1
+INFO:root:1609254384.86083,b'ahmadchaiban',25,0,1
+INFO:root:1609254385.248747,b'ahmadchaiban',25,0,1
+INFO:root:1609254385.410177,b'ahmadchaiban',25,0,1
+INFO:root:1609254385.773657,b'ahmadchaiban',15,0,1
+INFO:root:1609254385.931312,b'ahmadchaiban',15,0,1
+INFO:root:1609254386.2929761,b'ahmadchaiban',20,1,1
+INFO:root:1609254386.4471009,b'ahmadchaiban',20,1,1
+INFO:root:1609254386.81112,b'ahmadchaiban',15,0,1
+INFO:root:1609254386.960493,b'ahmadchaiban',15,0,1
+INFO:root:1609254387.334093,b'ahmadchaiban',15,0,1
+INFO:root:1609254387.480511,b'ahmadchaiban',15,0,1
+INFO:root:1609254387.829441,b'ahmadchaiban',5,1,0
+INFO:root:1609254388.001796,b'ahmadchaiban',5,1,0
+INFO:root:1609254388.395884,b'ahmadchaiban',20,1,1
+INFO:root:1609254388.550539,b'ahmadchaiban',20,1,1
+INFO:root:1609254388.920095,b'ahmadchaiban',20,1,1
+INFO:root:1609254389.058261,b'ahmadchaiban',20,1,1
+INFO:root:1609254389.4290628,b'ahmadchaiban',20,1,1
+INFO:root:1609254389.583426,b'ahmadchaiban',20,1,1
+INFO:root:1609254389.939877,b'ahmadchaiban',20,1,1
+INFO:root:1609254390.103793,b'ahmadchaiban',20,1,1
+INFO:root:1609254390.4914932,b'ahmadchaiban',20,1,1
+INFO:root:1609254390.656941,b'ahmadchaiban',20,1,1
+INFO:root:1609254391.018997,b'ahmadchaiban',25,0,1
+INFO:root:1609254391.1586602,b'ahmadchaiban',25,0,1
+INFO:root:1609254391.524161,b'ahmadchaiban',25,0,1
+INFO:root:1609254391.688551,b'ahmadchaiban',25,0,1
+INFO:root:1609254392.051241,b'ahmadchaiban',25,0,1
+INFO:root:1609254392.204803,b'ahmadchaiban',25,0,1
+INFO:root:1609254392.591253,b'ahmadchaiban',25,0,1
+INFO:root:1609254392.7487302,b'ahmadchaiban',25,0,1
+INFO:root:1609254393.133458,b'ahmadchaiban',25,0,1
+INFO:root:1609254393.296093,b'ahmadchaiban',25,0,1
+INFO:root:1609254393.6739929,b'ahmadchaiban',15,0,1
+INFO:root:1609254393.818532,b'ahmadchaiban',15,0,1
+INFO:root:1609254394.1808891,b'ahmadchaiban',15,0,1
+INFO:root:1609254394.329553,b'ahmadchaiban',15,0,1
+INFO:root:1609254394.6933749,b'ahmadchaiban',20,1,1
+INFO:root:1609254394.847254,b'ahmadchaiban',20,1,1
+INFO:root:1609254395.215382,b'ahmadchaiban',15,0,1
+INFO:root:1609254395.362391,b'ahmadchaiban',15,0,1
+INFO:root:1609254395.738024,b'ahmadchaiban',15,0,1
+INFO:root:1609254395.885076,b'ahmadchaiban',15,0,1
+INFO:root:1609254396.2531252,b'ahmadchaiban',25,0,1
+INFO:root:1609254396.399909,b'ahmadchaiban',25,0,1
+INFO:root:1609254396.7691672,b'ahmadchaiban',25,0,1
+INFO:root:1609254396.916024,b'ahmadchaiban',25,0,1
+INFO:root:1609254397.28845,b'ahmadchaiban',25,0,1
+INFO:root:1609254397.427722,b'ahmadchaiban',25,0,1
+INFO:root:1609254397.796142,b'ahmadchaiban',25,0,1
+INFO:root:1609254397.946188,b'ahmadchaiban',25,0,1
+INFO:root:1609254398.31707,b'ahmadchaiban',15,0,1
+INFO:root:1609254398.4647748,b'ahmadchaiban',15,0,1
+INFO:root:1609254398.832491,b'ahmadchaiban',25,0,1
+INFO:root:1609254398.983201,b'ahmadchaiban',25,0,1
+INFO:root:1609254399.356854,b'ahmadchaiban',25,0,1
+INFO:root:1609254399.5040011,b'ahmadchaiban',25,0,1
+INFO:root:1609254399.870982,b'ahmadchaiban',25,0,1
+INFO:root:1609254400.0108979,b'ahmadchaiban',25,0,1
+INFO:root:1609254400.3646479,b'ahmadchaiban',5,1,0
+INFO:root:1609254400.540079,b'ahmadchaiban',5,1,0
+INFO:root:1609254400.9003341,b'ahmadchaiban',15,0,1
+INFO:root:1609254401.040321,b'ahmadchaiban',15,0,1
+INFO:root:1609254401.4201732,b'ahmadchaiban',25,0,1
+INFO:root:1609254401.5696151,b'ahmadchaiban',25,0,1
+INFO:root:1609254401.9734778,b'ahmadchaiban',25,0,1
+INFO:root:1609254402.116875,b'ahmadchaiban',25,0,1
+INFO:root:1609254402.515287,b'ahmadchaiban',15,0,1
+INFO:root:1609254402.660675,b'ahmadchaiban',15,0,1
+INFO:root:1609254403.035551,b'ahmadchaiban',15,0,1
+INFO:root:1609254403.175554,b'ahmadchaiban',15,0,1
+INFO:root:1609254403.544967,b'ahmadchaiban',15,0,1
+INFO:root:1609254403.698242,b'ahmadchaiban',15,0,1
+INFO:root:1609254404.070595,b'ahmadchaiban',25,0,1
+INFO:root:1609254404.20946,b'ahmadchaiban',25,0,1
+INFO:root:1609254404.580058,b'ahmadchaiban',15,0,1
+INFO:root:1609254404.73282,b'ahmadchaiban',15,0,1
+INFO:root:1609254405.090501,b'ahmadchaiban',15,0,1
+INFO:root:1609254405.250528,b'ahmadchaiban',15,0,1
+INFO:root:1609254405.612968,b'ahmadchaiban',15,0,1
+INFO:root:1609254405.761647,b'ahmadchaiban',15,0,1
+INFO:root:1609254406.132076,b'ahmadchaiban',15,0,1
+INFO:root:1609254406.282552,b'ahmadchaiban',15,0,1
+INFO:root:1609254406.642842,b'ahmadchaiban',15,0,1
+INFO:root:1609254406.792554,b'ahmadchaiban',15,0,1
+INFO:root:1609254407.154609,b'ahmadchaiban',15,0,1
+INFO:root:1609254407.315419,b'ahmadchaiban',15,0,1
+INFO:root:1609254407.688381,b'ahmadchaiban',15,0,1
+INFO:root:1609254407.867106,b'ahmadchaiban',15,0,1
+INFO:root:1609254408.2542038,b'ahmadchaiban',25,0,1
+INFO:root:1609254408.418794,b'ahmadchaiban',25,0,1
+INFO:root:1609254408.789527,b'ahmadchaiban',25,0,1
+INFO:root:1609254408.9237702,b'ahmadchaiban',25,0,1
+INFO:root:1609254409.2877629,b'ahmadchaiban',15,0,1
+INFO:root:1609254409.417686,b'ahmadchaiban',15,0,1
+INFO:root:1609254409.8089862,b'ahmadchaiban',15,0,1
+INFO:root:1609254409.967114,b'ahmadchaiban',15,0,1
+INFO:root:1609254410.3300328,b'ahmadchaiban',15,0,1
+INFO:root:1609254410.4849658,b'ahmadchaiban',15,0,1
+INFO:root:1609254410.846621,b'ahmadchaiban',15,0,1
+INFO:root:1609254411.000437,b'ahmadchaiban',15,0,1
+INFO:root:1609254411.372586,b'ahmadchaiban',15,0,1
+INFO:root:1609254411.517442,b'ahmadchaiban',15,0,1
+INFO:root:1609254411.881226,b'ahmadchaiban',25,0,1
+INFO:root:1609254412.034762,b'ahmadchaiban',25,0,1
+INFO:root:1609254412.392241,b'ahmadchaiban',15,0,1
+INFO:root:1609254412.551271,b'ahmadchaiban',15,0,1
+INFO:root:1609254412.921132,b'ahmadchaiban',25,0,1
+INFO:root:1609254413.055163,b'ahmadchaiban',25,0,1
+INFO:root:1609254413.4342,b'ahmadchaiban',25,0,1
+INFO:root:1609254413.5900621,b'ahmadchaiban',25,0,1
+INFO:root:1609254413.947266,b'ahmadchaiban',25,0,1
+INFO:root:1609254414.103988,b'ahmadchaiban',25,0,1
+INFO:root:1609254414.506537,b'ahmadchaiban',25,0,1
+INFO:root:1609254414.654963,b'ahmadchaiban',25,0,1
+INFO:root:1609254415.054348,b'ahmadchaiban',25,0,1
+INFO:root:1609254415.2058141,b'ahmadchaiban',25,0,1
+INFO:root:1609254415.57298,b'ahmadchaiban',25,0,1
+INFO:root:1609254415.714663,b'ahmadchaiban',25,0,1
+INFO:root:1609254416.0905411,b'ahmadchaiban',25,0,1
+INFO:root:1609254416.260443,b'ahmadchaiban',25,0,1
+INFO:root:1609254416.6372921,b'ahmadchaiban',25,0,1
+INFO:root:1609254416.792881,b'ahmadchaiban',25,0,1
+INFO:root:1609254417.20609,b'ahmadchaiban',25,0,1
+INFO:root:1609254417.36424,b'ahmadchaiban',25,0,1
+INFO:root:1609254417.739815,b'ahmadchaiban',25,0,1
+INFO:root:1609254417.879416,b'ahmadchaiban',25,0,1
+INFO:root:1609254418.247272,b'ahmadchaiban',15,0,1
+INFO:root:1609254418.411287,b'ahmadchaiban',15,0,1
+INFO:root:1609254418.778346,b'ahmadchaiban',25,0,1
+INFO:root:1609254418.9200268,b'ahmadchaiban',25,0,1
+INFO:root:1609254419.290538,b'ahmadchaiban',25,0,1
+INFO:root:1609254419.438704,b'ahmadchaiban',25,0,1
+INFO:root:1609254419.832704,b'ahmadchaiban',25,0,1
+INFO:root:1609254419.991008,b'ahmadchaiban',25,0,1
+INFO:root:1609254420.3602629,b'ahmadchaiban',25,0,1
+INFO:root:1609254420.507225,b'ahmadchaiban',25,0,1
+INFO:root:1609254420.8786712,b'ahmadchaiban',25,0,1
+INFO:root:1609254421.027422,b'ahmadchaiban',25,0,1
+INFO:root:1609254421.392214,b'ahmadchaiban',25,0,1
+INFO:root:1609254421.531305,b'ahmadchaiban',25,0,1
+INFO:root:1609254421.910743,b'ahmadchaiban',25,0,1
+INFO:root:1609254422.059256,b'ahmadchaiban',25,0,1
+INFO:root:1609254422.452835,b'ahmadchaiban',25,0,1
+INFO:root:1609254422.6071308,b'ahmadchaiban',25,0,1
+INFO:root:1609254422.977236,b'ahmadchaiban',15,0,1
+INFO:root:1609254423.121411,b'ahmadchaiban',15,0,1
+INFO:root:1609254423.529639,b'ahmadchaiban',15,0,1
+INFO:root:1609254423.6698701,b'ahmadchaiban',15,0,1
+INFO:root:1609254424.078254,b'ahmadchaiban',25,0,1
+INFO:root:1609254424.221206,b'ahmadchaiban',25,0,1
+INFO:root:1609254424.591159,b'ahmadchaiban',30,1,1
+INFO:root:1609254424.737897,b'ahmadchaiban',30,1,1
+INFO:root:1609254425.099614,b'ahmadchaiban',20,1,1
+INFO:root:1609254425.253655,b'ahmadchaiban',20,1,1
+INFO:root:1609254425.609983,b'ahmadchaiban',5,1,0
+INFO:root:1609254425.771307,b'ahmadchaiban',5,1,0
+INFO:root:1609254426.1378298,b'ahmadchaiban',15,0,1
+INFO:root:1609254426.283786,b'ahmadchaiban',15,0,1
+INFO:root:1609254426.653861,b'ahmadchaiban',20,1,1
+INFO:root:1609254426.81077,b'ahmadchaiban',20,1,1
+INFO:root:1609254427.213154,b'ahmadchaiban',25,0,1
+INFO:root:1609254427.368268,b'ahmadchaiban',25,0,1
+INFO:root:1609254427.758733,b'ahmadchaiban',15,0,1
+INFO:root:1609254427.9097202,b'ahmadchaiban',15,0,1
+INFO:root:1609254428.2778492,b'ahmadchaiban',15,0,1
+INFO:root:1609254428.4229429,b'ahmadchaiban',15,0,1
+INFO:root:1609254428.770216,b'ahmadchaiban',5,1,0
+INFO:root:1609254428.910741,b'ahmadchaiban',5,1,0
+INFO:root:1609254429.2630122,b'ahmadchaiban',5,1,0
+INFO:root:1609254429.412956,b'ahmadchaiban',5,1,0
+INFO:root:1609254429.792523,b'ahmadchaiban',15,0,1
+INFO:root:1609254429.9350882,b'ahmadchaiban',15,0,1
+INFO:root:1609254430.3086138,b'ahmadchaiban',25,2,1
+INFO:root:1609254430.4580631,b'ahmadchaiban',25,2,1
+INFO:root:1609254430.827968,b'ahmadchaiban',25,0,1
+INFO:root:1609254430.970495,b'ahmadchaiban',25,0,1
+INFO:root:1609254431.335639,b'ahmadchaiban',15,0,1
+INFO:root:1609254431.4806569,b'ahmadchaiban',15,0,1
+INFO:root:1609254431.831552,b'ahmadchaiban',15,1,0
+INFO:root:1609254431.974598,b'ahmadchaiban',15,1,0
+INFO:root:1609254432.369174,b'ahmadchaiban',15,0,1
+INFO:root:1609254432.516129,b'ahmadchaiban',15,0,1
+INFO:root:1609254432.899853,b'ahmadchaiban',15,0,1
+INFO:root:1609254433.0381691,b'ahmadchaiban',15,0,1
+INFO:root:1609254433.411047,b'ahmadchaiban',25,0,1
+INFO:root:1609254433.5534232,b'ahmadchaiban',25,0,1
+INFO:root:1609254433.919498,b'ahmadchaiban',25,0,1
+INFO:root:1609254434.070863,b'ahmadchaiban',25,0,1
+INFO:root:1609254434.435043,b'ahmadchaiban',25,0,1
+INFO:root:1609254434.592323,b'ahmadchaiban',25,0,1
+INFO:root:1609254434.990443,b'ahmadchaiban',25,0,1
+INFO:root:1609254435.144208,b'ahmadchaiban',25,0,1
+INFO:root:1609254435.547703,b'ahmadchaiban',25,0,1
+INFO:root:1609254435.695307,b'ahmadchaiban',25,0,1
+INFO:root:1609254436.058288,b'ahmadchaiban',15,0,1
+INFO:root:1609254436.2082748,b'ahmadchaiban',15,0,1
+INFO:root:1609254436.578036,b'ahmadchaiban',25,0,1
+INFO:root:1609254436.707885,b'ahmadchaiban',25,0,1
+INFO:root:1609254437.105876,b'ahmadchaiban',25,0,1
+INFO:root:1609254437.269278,b'ahmadchaiban',25,0,1
+INFO:root:1609254437.63359,b'ahmadchaiban',20,1,1
+INFO:root:1609254437.79175,b'ahmadchaiban',20,1,1
+INFO:root:1609254438.1626189,b'ahmadchaiban',25,0,1
+INFO:root:1609254438.300679,b'ahmadchaiban',25,0,1
+INFO:root:1609254438.650211,b'ahmadchaiban',5,1,0
+INFO:root:1609254438.812769,b'ahmadchaiban',5,1,0
+INFO:root:1609254439.165955,b'ahmadchaiban',5,1,0
+INFO:root:1609254439.300575,b'ahmadchaiban',5,1,0
+INFO:root:1609254439.649214,b'ahmadchaiban',5,1,0
+INFO:root:1609254439.787828,b'ahmadchaiban',5,1,0
+INFO:root:1609254440.1322722,b'ahmadchaiban',5,1,0
+INFO:root:1609254440.2650392,b'ahmadchaiban',5,1,0
+INFO:root:1609254440.607477,b'ahmadchaiban',0,0,0
+INFO:root:1609254440.7493901,b'ahmadchaiban',0,0,0
+INFO:root:1609254441.099312,b'ahmadchaiban',0,0,0
+INFO:root:1609254441.263055,b'ahmadchaiban',0,0,0
+INFO:root:1609254441.6125069,b'ahmadchaiban',0,0,0
+INFO:root:1609254441.7740061,b'ahmadchaiban',0,0,0
+INFO:root:1609254442.140532,b'ahmadchaiban',0,0,0
+INFO:root:1609254442.3005471,b'ahmadchaiban',0,0,0
+INFO:root:1609254442.649578,b'ahmadchaiban',0,0,0
+INFO:root:1609254442.790911,b'ahmadchaiban',0,0,0
+INFO:root:1609254443.168548,b'ahmadchaiban',0,0,0
+INFO:root:1609254443.3279822,b'ahmadchaiban',0,0,0
+INFO:root:1609254443.685807,b'ahmadchaiban',0,0,0
+INFO:root:1609254443.8095942,b'ahmadchaiban',0,0,0
+INFO:root:1609254444.176405,b'ahmadchaiban',0,0,0
+INFO:root:1609254444.329379,b'ahmadchaiban',0,0,0
+INFO:root:1609254444.7290728,b'ahmadchaiban',0,0,0
+INFO:root:1609254444.8716009,b'ahmadchaiban',0,0,0
+INFO:root:1609254445.2258549,b'ahmadchaiban',0,0,0
+INFO:root:1609254445.35669,b'ahmadchaiban',0,0,0
+INFO:root:1609254445.712471,b'ahmadchaiban',0,0,0
+INFO:root:1609254445.8488472,b'ahmadchaiban',0,0,0
+INFO:root:1609254446.197321,b'ahmadchaiban',0,0,0
+INFO:root:1609254446.354647,b'ahmadchaiban',0,0,0
+INFO:root:1609254446.713726,b'ahmadchaiban',0,0,0
+INFO:root:1609254446.845869,b'ahmadchaiban',0,0,0
+INFO:root:1609254447.1967192,b'ahmadchaiban',0,0,0
+INFO:root:1609254447.32729,b'ahmadchaiban',0,0,0
+INFO:root:1609254447.673684,b'ahmadchaiban',0,0,0
+INFO:root:1609254447.81272,b'ahmadchaiban',0,0,0
+INFO:root:1609254448.1819782,b'ahmadchaiban',0,0,0
+INFO:root:1609254448.315119,b'ahmadchaiban',0,0,0
+INFO:root:1609254448.668444,b'ahmadchaiban',0,0,0
+INFO:root:1609254448.80284,b'ahmadchaiban',0,0,0
+INFO:root:1609254449.152891,b'ahmadchaiban',0,0,0
+INFO:root:1609254449.295529,b'ahmadchaiban',0,0,0
+INFO:root:1609254449.667153,b'ahmadchaiban',5,1,0
+INFO:root:1609254449.808844,b'ahmadchaiban',5,1,0
+INFO:root:1609254450.1648488,b'ahmadchaiban',5,1,0
+INFO:root:1609254450.319766,b'ahmadchaiban',5,1,0
+INFO:root:1609254450.669434,b'ahmadchaiban',5,1,0
+INFO:root:1609254450.81526,b'ahmadchaiban',5,1,0
+INFO:root:1609254451.217359,b'ahmadchaiban',15,0,1
+INFO:root:1609254451.352041,b'ahmadchaiban',15,0,1
+INFO:root:1609254451.7177558,b'ahmadchaiban',15,0,1
+INFO:root:1609254451.869078,b'ahmadchaiban',15,0,1
+INFO:root:1609254452.232304,b'ahmadchaiban',25,0,1
+INFO:root:1609254452.393752,b'ahmadchaiban',25,0,1
+INFO:root:1609254452.76087,b'ahmadchaiban',15,0,1
+INFO:root:1609254452.904481,b'ahmadchaiban',15,0,1
+INFO:root:1609254453.2705002,b'ahmadchaiban',15,1,0
+INFO:root:1609254453.41607,b'ahmadchaiban',15,1,0
+INFO:root:1609254453.776156,b'ahmadchaiban',5,1,0
+INFO:root:1609254453.935874,b'ahmadchaiban',5,1,0
+INFO:root:1609254454.320683,b'ahmadchaiban',5,1,0
+INFO:root:1609254454.460824,b'ahmadchaiban',5,1,0
+INFO:root:1609254454.8281128,b'ahmadchaiban',15,0,1
+INFO:root:1609254454.9700549,b'ahmadchaiban',15,0,1
+INFO:root:1609254455.343654,b'ahmadchaiban',10,1,1
+INFO:root:1609254455.500545,b'ahmadchaiban',10,1,1
+INFO:root:1609254455.877366,b'ahmadchaiban',15,1,0
+INFO:root:1609254456.0075169,b'ahmadchaiban',15,1,0
+INFO:root:1609254456.383797,b'ahmadchaiban',5,1,0
+INFO:root:1609254456.5549939,b'ahmadchaiban',5,1,0
+INFO:root:1609254456.938261,b'ahmadchaiban',25,0,1
+INFO:root:1609254457.11299,b'ahmadchaiban',25,0,1
+INFO:root:1609254457.516923,b'ahmadchaiban',20,1,1
+INFO:root:1609254457.666404,b'ahmadchaiban',20,1,1
+INFO:root:1609254458.054463,b'ahmadchaiban',25,0,1
+INFO:root:1609254458.2050729,b'ahmadchaiban',25,0,1
+INFO:root:1609254458.574222,b'ahmadchaiban',25,0,1
+INFO:root:1609254458.716348,b'ahmadchaiban',25,0,1
+INFO:root:1609254459.0900412,b'ahmadchaiban',15,0,1
+INFO:root:1609254459.253118,b'ahmadchaiban',15,0,1
+INFO:root:1609254459.647485,b'ahmadchaiban',25,0,1
+INFO:root:1609254459.791571,b'ahmadchaiban',25,0,1
+INFO:root:1609254460.167186,b'ahmadchaiban',25,0,1
+INFO:root:1609254460.306607,b'ahmadchaiban',25,0,1
+INFO:root:1609254460.681163,b'ahmadchaiban',25,0,1
+INFO:root:1609254460.829419,b'ahmadchaiban',25,0,1
+INFO:root:1609254461.200511,b'ahmadchaiban',25,0,1
+INFO:root:1609254461.3828511,b'ahmadchaiban',25,0,1
+INFO:root:1609254461.768383,b'ahmadchaiban',25,0,1
+INFO:root:1609254461.931062,b'ahmadchaiban',25,0,1
+INFO:root:1609254462.301405,b'ahmadchaiban',15,0,1
+INFO:root:1609254462.435076,b'ahmadchaiban',15,0,1
+INFO:root:1609254462.813251,b'ahmadchaiban',15,0,1
+INFO:root:1609254462.962453,b'ahmadchaiban',15,0,1
+INFO:root:1609254463.381771,b'ahmadchaiban',25,0,1
+INFO:root:1609254463.5410612,b'ahmadchaiban',25,0,1
+INFO:root:1609254463.9298391,b'ahmadchaiban',25,0,1
+INFO:root:1609254464.0672,b'ahmadchaiban',25,0,1
+INFO:root:1609254464.475229,b'ahmadchaiban',25,0,1
+INFO:root:1609254464.6529999,b'ahmadchaiban',25,0,1
+INFO:root:1609254465.051012,b'ahmadchaiban',25,0,1
+INFO:root:1609254465.197058,b'ahmadchaiban',25,0,1
+INFO:root:1609254465.570944,b'ahmadchaiban',15,0,1
+INFO:root:1609254465.718505,b'ahmadchaiban',15,0,1
+INFO:root:1609254466.0877461,b'ahmadchaiban',25,0,1
+INFO:root:1609254466.2378309,b'ahmadchaiban',25,0,1
+INFO:root:1609254466.639617,b'ahmadchaiban',25,0,1
+INFO:root:1609254466.792351,b'ahmadchaiban',25,0,1
+INFO:root:1609254467.170006,b'ahmadchaiban',15,1,0
+INFO:root:1609254467.340995,b'ahmadchaiban',15,1,0
+INFO:root:1609254467.700307,b'ahmadchaiban',15,0,1
+INFO:root:1609254467.846654,b'ahmadchaiban',15,0,1
+INFO:root:1609254468.207274,b'ahmadchaiban',25,0,1
+INFO:root:1609254468.363389,b'ahmadchaiban',25,0,1
+INFO:root:1609254468.7365031,b'ahmadchaiban',25,0,1
+INFO:root:1609254468.879429,b'ahmadchaiban',25,0,1
+INFO:root:1609254469.258955,b'ahmadchaiban',25,0,1
+INFO:root:1609254469.398425,b'ahmadchaiban',25,0,1
+INFO:root:1609254469.769917,b'ahmadchaiban',25,0,1
+INFO:root:1609254469.904813,b'ahmadchaiban',25,0,1
+INFO:root:1609254470.291297,b'ahmadchaiban',25,0,1
+INFO:root:1609254470.43858,b'ahmadchaiban',25,0,1
+INFO:root:1609254470.797662,b'ahmadchaiban',25,0,1
+INFO:root:1609254470.956055,b'ahmadchaiban',25,0,1
+INFO:root:1609254471.318965,b'ahmadchaiban',25,0,1
+INFO:root:1609254471.4671118,b'ahmadchaiban',25,0,1
+INFO:root:1609254471.8391418,b'ahmadchaiban',30,1,1
+INFO:root:1609254471.985733,b'ahmadchaiban',30,1,1
+INFO:root:1609254472.3543282,b'ahmadchaiban',25,0,1
+INFO:root:1609254472.507665,b'ahmadchaiban',25,0,1
+INFO:root:1609254472.903295,b'ahmadchaiban',25,0,1
+INFO:root:1609254473.055578,b'ahmadchaiban',25,0,1
+INFO:root:1609254473.455355,b'ahmadchaiban',25,0,1
+INFO:root:1609254473.606784,b'ahmadchaiban',25,0,1
+INFO:root:1609254473.963203,b'ahmadchaiban',15,0,1
+INFO:root:1609254474.1195588,b'ahmadchaiban',15,0,1
+INFO:root:1609254474.489453,b'ahmadchaiban',25,0,1
+INFO:root:1609254474.634579,b'ahmadchaiban',25,0,1
+INFO:root:1609254475.00242,b'ahmadchaiban',30,1,1
+INFO:root:1609254475.154561,b'ahmadchaiban',30,1,1
+INFO:root:1609254475.5229912,b'ahmadchaiban',25,0,1
+INFO:root:1609254475.667486,b'ahmadchaiban',25,0,1
+INFO:root:1609254476.0360608,b'ahmadchaiban',25,0,1
+INFO:root:1609254476.19027,b'ahmadchaiban',25,0,1
+INFO:root:1609254476.592447,b'ahmadchaiban',25,0,1
+INFO:root:1609254476.73528,b'ahmadchaiban',25,0,1
+INFO:root:1609254477.110037,b'ahmadchaiban',15,0,1
+INFO:root:1609254477.2473989,b'ahmadchaiban',15,0,1
+INFO:root:1609254477.617075,b'ahmadchaiban',15,0,1
+INFO:root:1609254477.763028,b'ahmadchaiban',15,0,1
+INFO:root:1609254478.134269,b'ahmadchaiban',25,0,1
+INFO:root:1609254478.281161,b'ahmadchaiban',25,0,1
+INFO:root:1609254478.640588,b'ahmadchaiban',15,0,1
+INFO:root:1609254478.795663,b'ahmadchaiban',15,0,1
+INFO:root:1609254479.168522,b'ahmadchaiban',25,0,1
+INFO:root:1609254479.3134432,b'ahmadchaiban',25,0,1
+INFO:root:1609254479.677438,b'ahmadchaiban',25,0,1
+INFO:root:1609254479.825648,b'ahmadchaiban',25,0,1
+INFO:root:1609254480.200216,b'ahmadchaiban',15,0,1
+INFO:root:1609254480.340312,b'ahmadchaiban',15,0,1
+INFO:root:1609254480.714057,b'ahmadchaiban',25,0,1
+INFO:root:1609254480.863987,b'ahmadchaiban',25,0,1
+INFO:root:1609254481.237508,b'ahmadchaiban',25,0,1
+INFO:root:1609254481.384396,b'ahmadchaiban',25,0,1
+INFO:root:1609254481.7453818,b'ahmadchaiban',25,0,1
+INFO:root:1609254481.903056,b'ahmadchaiban',25,0,1
+INFO:root:1609254482.298851,b'ahmadchaiban',25,0,1
+INFO:root:1609254482.447714,b'ahmadchaiban',25,0,1
+INFO:root:1609254482.810988,b'ahmadchaiban',25,0,1
+INFO:root:1609254482.95875,b'ahmadchaiban',25,0,1
+INFO:root:1609254483.332816,b'ahmadchaiban',25,0,1
+INFO:root:1609254483.4901829,b'ahmadchaiban',25,0,1
+INFO:root:1609254483.8931231,b'ahmadchaiban',25,0,1
+INFO:root:1609254484.030174,b'ahmadchaiban',25,0,1
+INFO:root:1609254484.399143,b'ahmadchaiban',30,0,1
+INFO:root:1609254484.5489228,b'ahmadchaiban',30,0,1
+INFO:root:1609254484.905031,b'ahmadchaiban',15,1,0
+INFO:root:1609254485.0596669,b'ahmadchaiban',15,1,0
+INFO:root:1609254485.412711,b'ahmadchaiban',5,1,0
+INFO:root:1609254485.553931,b'ahmadchaiban',5,1,0
+INFO:root:1609254485.924387,b'ahmadchaiban',15,1,0
+INFO:root:1609254486.061076,b'ahmadchaiban',15,1,0
+INFO:root:1609254486.428326,b'ahmadchaiban',15,0,1
+INFO:root:1609254486.5833442,b'ahmadchaiban',15,0,1
+INFO:root:1609254486.944886,b'ahmadchaiban',25,0,1
+INFO:root:1609254487.088413,b'ahmadchaiban',25,0,1
+INFO:root:1609254487.448842,b'ahmadchaiban',15,0,1
+INFO:root:1609254487.6112761,b'ahmadchaiban',15,0,1
+INFO:root:1609254487.9814432,b'ahmadchaiban',15,0,1
+INFO:root:1609254488.133182,b'ahmadchaiban',15,0,1
+INFO:root:1609254488.498008,b'ahmadchaiban',15,0,1
+INFO:root:1609254488.655679,b'ahmadchaiban',15,0,1
+INFO:root:1609254489.0247061,b'ahmadchaiban',25,0,1
+INFO:root:1609254489.1667168,b'ahmadchaiban',25,0,1
+INFO:root:1609254489.565894,b'ahmadchaiban',15,0,1
+INFO:root:1609254489.716556,b'ahmadchaiban',15,0,1
+INFO:root:1609254490.087113,b'ahmadchaiban',25,0,1
+INFO:root:1609254490.2333481,b'ahmadchaiban',25,0,1
+INFO:root:1609254490.598885,b'ahmadchaiban',25,0,1
+INFO:root:1609254490.7528262,b'ahmadchaiban',25,0,1
+INFO:root:1609254491.126179,b'ahmadchaiban',25,0,1
+INFO:root:1609254491.2630248,b'ahmadchaiban',25,0,1
+INFO:root:1609254491.633389,b'ahmadchaiban',25,0,1
+INFO:root:1609254491.782887,b'ahmadchaiban',25,0,1
+INFO:root:1609254492.1460512,b'ahmadchaiban',25,0,1
+INFO:root:1609254492.3002691,b'ahmadchaiban',25,0,1
+INFO:root:1609254492.66554,b'ahmadchaiban',25,0,1
+INFO:root:1609254492.806462,b'ahmadchaiban',25,0,1
+INFO:root:1609254493.18126,b'ahmadchaiban',25,0,1
+INFO:root:1609254493.342548,b'ahmadchaiban',25,0,1
+INFO:root:1609254493.737739,b'ahmadchaiban',25,0,1
+INFO:root:1609254493.89234,b'ahmadchaiban',25,0,1
+INFO:root:1609254494.2968478,b'ahmadchaiban',25,0,1
+INFO:root:1609254494.437674,b'ahmadchaiban',25,0,1
+INFO:root:1609254494.8412359,b'ahmadchaiban',25,0,1
+INFO:root:1609254494.9876218,b'ahmadchaiban',25,0,1
+INFO:root:1609254495.387595,b'ahmadchaiban',25,0,1
+INFO:root:1609254495.525756,b'ahmadchaiban',25,0,1
+INFO:root:1609254495.8993332,b'ahmadchaiban',25,0,1
+INFO:root:1609254496.050943,b'ahmadchaiban',25,0,1
+INFO:root:1609254496.43179,b'ahmadchaiban',25,0,1
+INFO:root:1609254496.568589,b'ahmadchaiban',25,0,1
+INFO:root:1609254496.972708,b'ahmadchaiban',15,0,1
+INFO:root:1609254497.1141372,b'ahmadchaiban',15,0,1
+INFO:root:1609254497.483069,b'ahmadchaiban',25,0,1
+INFO:root:1609254497.6456718,b'ahmadchaiban',25,0,1
+INFO:root:1609254498.042936,b'ahmadchaiban',25,0,1
+INFO:root:1609254498.192804,b'ahmadchaiban',25,0,1
+INFO:root:1609254498.6033971,b'ahmadchaiban',25,0,1
+INFO:root:1609254498.7406888,b'ahmadchaiban',25,0,1
+INFO:root:1609254499.116866,b'ahmadchaiban',25,0,1
+INFO:root:1609254499.2867541,b'ahmadchaiban',25,0,1
+INFO:root:1609254499.658609,b'ahmadchaiban',25,0,1
+INFO:root:1609254499.804714,b'ahmadchaiban',25,0,1
+INFO:root:1609254500.169914,b'ahmadchaiban',25,0,1
+INFO:root:1609254500.320669,b'ahmadchaiban',25,0,1
+INFO:root:1609254500.6849291,b'ahmadchaiban',15,0,1
+INFO:root:1609254500.834547,b'ahmadchaiban',15,0,1
+INFO:root:1609254501.218245,b'ahmadchaiban',25,0,1
+INFO:root:1609254501.3627038,b'ahmadchaiban',25,0,1
+INFO:root:1609254501.781538,b'ahmadchaiban',25,0,1
+INFO:root:1609254501.945415,b'ahmadchaiban',25,0,1
+INFO:root:1609254502.3723211,b'ahmadchaiban',25,0,1
+INFO:root:1609254502.527082,b'ahmadchaiban',25,0,1
+INFO:root:1609254502.93154,b'ahmadchaiban',15,0,1
+INFO:root:1609254503.0832489,b'ahmadchaiban',15,0,1
+INFO:root:1609254503.4826229,b'ahmadchaiban',15,0,1
+INFO:root:1609254503.6314082,b'ahmadchaiban',15,0,1
+INFO:root:1609254504.0548742,b'ahmadchaiban',25,0,1
+INFO:root:1609254504.210361,b'ahmadchaiban',25,0,1
+INFO:root:1609254504.5957608,b'ahmadchaiban',15,0,1
+INFO:root:1609254504.734953,b'ahmadchaiban',15,0,1
+INFO:root:1609254505.1227698,b'ahmadchaiban',15,0,1
+INFO:root:1609254505.275947,b'ahmadchaiban',15,0,1
+INFO:root:1609254505.657213,b'ahmadchaiban',25,0,1
+INFO:root:1609254505.791698,b'ahmadchaiban',25,0,1
+INFO:root:1609254506.177304,b'ahmadchaiban',25,0,1
+INFO:root:1609254506.325164,b'ahmadchaiban',25,0,1
+INFO:root:1609254506.707,b'ahmadchaiban',25,0,1
+INFO:root:1609254506.86606,b'ahmadchaiban',25,0,1
+INFO:root:1609254507.247487,b'ahmadchaiban',25,0,1
+INFO:root:1609254507.413298,b'ahmadchaiban',25,0,1
+INFO:root:1609254507.788081,b'ahmadchaiban',25,0,1
+INFO:root:1609254507.935095,b'ahmadchaiban',25,0,1
+INFO:root:1609254508.340649,b'ahmadchaiban',25,0,1
+INFO:root:1609254508.4735732,b'ahmadchaiban',25,0,1
+INFO:root:1609254508.842769,b'ahmadchaiban',15,0,1
+INFO:root:1609254509.0006511,b'ahmadchaiban',15,0,1
+INFO:root:1609254509.4009228,b'ahmadchaiban',15,0,1
+INFO:root:1609254509.5478332,b'ahmadchaiban',15,0,1
+INFO:root:1609254509.915892,b'ahmadchaiban',15,0,1
+INFO:root:1609254510.075949,b'ahmadchaiban',15,0,1
+INFO:root:1609254510.478445,b'ahmadchaiban',15,0,1
+INFO:root:1609254510.608313,b'ahmadchaiban',15,0,1
+INFO:root:1609254510.979737,b'ahmadchaiban',15,0,1
+INFO:root:1609254511.128438,b'ahmadchaiban',15,0,1
+INFO:root:1609254511.494716,b'ahmadchaiban',15,0,1
+INFO:root:1609254511.6460469,b'ahmadchaiban',15,0,1
+INFO:root:1609254512.02437,b'ahmadchaiban',15,0,1
+INFO:root:1609254512.159263,b'ahmadchaiban',15,0,1
+INFO:root:1609254512.532951,b'ahmadchaiban',15,0,1
+INFO:root:1609254512.6796002,b'ahmadchaiban',15,0,1
+INFO:root:1609254513.0629828,b'ahmadchaiban',15,0,1
+INFO:root:1609254513.2271922,b'ahmadchaiban',15,0,1
+INFO:root:1609254513.620532,b'ahmadchaiban',25,0,1
+INFO:root:1609254513.78441,b'ahmadchaiban',25,0,1
+INFO:root:1609254514.188693,b'ahmadchaiban',25,0,1
+INFO:root:1609254514.338261,b'ahmadchaiban',25,0,1
+INFO:root:1609254514.7061481,b'ahmadchaiban',15,0,1
+INFO:root:1609254514.852113,b'ahmadchaiban',15,0,1
+INFO:root:1609254515.2166378,b'ahmadchaiban',15,0,1
+INFO:root:1609254515.362313,b'ahmadchaiban',15,0,1
+INFO:root:1609254515.7340858,b'ahmadchaiban',25,0,1
+INFO:root:1609254515.891943,b'ahmadchaiban',25,0,1
+INFO:root:1609254516.2933068,b'ahmadchaiban',15,0,1
+INFO:root:1609254516.438777,b'ahmadchaiban',15,0,1
+INFO:root:1609254516.80268,b'ahmadchaiban',15,0,1
+INFO:root:1609254516.958154,b'ahmadchaiban',15,0,1
+INFO:root:1609254517.3275242,b'ahmadchaiban',25,0,1
+INFO:root:1609254517.4704618,b'ahmadchaiban',25,0,1
+INFO:root:1609254517.839964,b'ahmadchaiban',25,0,1
+INFO:root:1609254517.988138,b'ahmadchaiban',25,0,1
+INFO:root:1609254518.349867,b'ahmadchaiban',15,0,1
+INFO:root:1609254518.493763,b'ahmadchaiban',15,0,1
+INFO:root:1609254518.860659,b'ahmadchaiban',15,0,1
+INFO:root:1609254519.010912,b'ahmadchaiban',15,0,1
+INFO:root:1609254519.391474,b'ahmadchaiban',15,0,1
+INFO:root:1609254519.53647,b'ahmadchaiban',15,0,1
+INFO:root:1609254519.909647,b'ahmadchaiban',15,0,1
+INFO:root:1609254520.048629,b'ahmadchaiban',15,0,1
+INFO:root:1609254520.4088058,b'ahmadchaiban',25,0,1
+INFO:root:1609254520.577007,b'ahmadchaiban',25,0,1
+INFO:root:1609254520.971493,b'ahmadchaiban',25,0,1
+INFO:root:1609254521.119818,b'ahmadchaiban',25,0,1
+INFO:root:1609254521.4755259,b'ahmadchaiban',25,0,1
+INFO:root:1609254521.6406012,b'ahmadchaiban',25,0,1
+INFO:root:1609254522.010331,b'ahmadchaiban',25,0,1
+INFO:root:1609254522.1553621,b'ahmadchaiban',25,0,1
+INFO:root:1609254522.5534341,b'ahmadchaiban',25,0,1
+INFO:root:1609254522.699147,b'ahmadchaiban',25,0,1
+INFO:root:1609254523.0858188,b'ahmadchaiban',15,0,1
+INFO:root:1609254523.220165,b'ahmadchaiban',15,0,1
+INFO:root:1609254523.592222,b'ahmadchaiban',25,0,1
+INFO:root:1609254523.731083,b'ahmadchaiban',25,0,1
+INFO:root:1609254524.1212559,b'ahmadchaiban',25,0,1
+INFO:root:1609254524.2555299,b'ahmadchaiban',25,0,1
+INFO:root:1609254524.6163578,b'ahmadchaiban',15,0,1
+INFO:root:1609254524.760799,b'ahmadchaiban',15,0,1
+INFO:root:1609254525.12208,b'ahmadchaiban',15,0,1
+INFO:root:1609254525.258362,b'ahmadchaiban',15,0,1
+INFO:root:1609254525.642103,b'ahmadchaiban',15,0,1
+INFO:root:1609254525.80996,b'ahmadchaiban',15,0,1
+INFO:root:1609254526.210334,b'ahmadchaiban',15,0,1
+INFO:root:1609254526.356123,b'ahmadchaiban',15,0,1
+INFO:root:1609254526.7168581,b'ahmadchaiban',15,0,1
+INFO:root:1609254526.869558,b'ahmadchaiban',15,0,1
+INFO:root:1609254527.2443268,b'ahmadchaiban',15,0,1
+INFO:root:1609254527.373999,b'ahmadchaiban',15,0,1
+INFO:root:1609254527.753029,b'ahmadchaiban',15,0,1
+INFO:root:1609254527.902378,b'ahmadchaiban',15,0,1
+INFO:root:1609254528.2747872,b'ahmadchaiban',25,0,1
+INFO:root:1609254528.422176,b'ahmadchaiban',25,0,1
+INFO:root:1609254528.7810051,b'ahmadchaiban',25,0,1
+INFO:root:1609254528.928994,b'ahmadchaiban',25,0,1
+INFO:root:1609254529.308374,b'ahmadchaiban',15,0,1
+INFO:root:1609254529.446951,b'ahmadchaiban',15,0,1
+INFO:root:1609254529.828532,b'ahmadchaiban',25,0,1
+INFO:root:1609254529.975025,b'ahmadchaiban',25,0,1
+INFO:root:1609254530.3535411,b'ahmadchaiban',25,0,1
+INFO:root:1609254530.493789,b'ahmadchaiban',25,0,1
+INFO:root:1609254530.86521,b'ahmadchaiban',25,0,1
+INFO:root:1609254531.002372,b'ahmadchaiban',25,0,1
+INFO:root:1609254531.3809988,b'ahmadchaiban',25,0,1
+INFO:root:1609254531.552099,b'ahmadchaiban',25,0,1
+INFO:root:1609254531.93712,b'ahmadchaiban',25,0,1
+INFO:root:1609254532.1134999,b'ahmadchaiban',25,0,1
+INFO:root:1609254532.5144372,b'ahmadchaiban',25,0,1
+INFO:root:1609254532.655711,b'ahmadchaiban',25,0,1
+INFO:root:1609254533.031019,b'ahmadchaiban',25,0,1
+INFO:root:1609254533.166506,b'ahmadchaiban',25,0,1
+INFO:root:1609254533.540013,b'ahmadchaiban',25,0,1
+INFO:root:1609254533.694716,b'ahmadchaiban',25,0,1
+INFO:root:1609254534.0663521,b'ahmadchaiban',25,0,1
+INFO:root:1609254534.206434,b'ahmadchaiban',25,0,1
+INFO:root:1609254534.582218,b'ahmadchaiban',25,0,1
+INFO:root:1609254534.712972,b'ahmadchaiban',25,0,1
+INFO:root:1609254535.086812,b'ahmadchaiban',25,0,1
+INFO:root:1609254535.2381089,b'ahmadchaiban',25,0,1
+INFO:root:1609254535.645637,b'ahmadchaiban',25,0,1
+INFO:root:1609254535.784965,b'ahmadchaiban',25,0,1
+INFO:root:1609254536.146564,b'ahmadchaiban',25,0,1
+INFO:root:1609254536.317787,b'ahmadchaiban',25,0,1
+INFO:root:1609254536.7103748,b'ahmadchaiban',25,0,1
+INFO:root:1609254536.849338,b'ahmadchaiban',25,0,1
+INFO:root:1609254537.233671,b'ahmadchaiban',25,0,1
+INFO:root:1609254537.37426,b'ahmadchaiban',25,0,1
+INFO:root:1609254537.753064,b'ahmadchaiban',25,0,1
+INFO:root:1609254537.896951,b'ahmadchaiban',25,0,1
+INFO:root:1609254538.2986398,b'ahmadchaiban',25,0,1
+INFO:root:1609254538.445032,b'ahmadchaiban',25,0,1
+INFO:root:1609254538.810677,b'ahmadchaiban',25,0,1
+INFO:root:1609254538.959672,b'ahmadchaiban',25,0,1
+INFO:root:1609254539.3304782,b'ahmadchaiban',25,0,1
+INFO:root:1609254539.47919,b'ahmadchaiban',25,0,1
+INFO:root:1609254539.8812969,b'ahmadchaiban',25,0,1
+INFO:root:1609254540.02989,b'ahmadchaiban',25,0,1
+INFO:root:1609254540.429389,b'ahmadchaiban',25,0,1
+INFO:root:1609254540.577416,b'ahmadchaiban',25,0,1
+INFO:root:1609254540.942689,b'ahmadchaiban',25,0,1
+INFO:root:1609254541.0938041,b'ahmadchaiban',25,0,1
+INFO:root:1609254541.492827,b'ahmadchaiban',25,0,1
+INFO:root:1609254541.633881,b'ahmadchaiban',25,0,1
+INFO:root:1609254542.0138812,b'ahmadchaiban',25,0,1
+INFO:root:1609254542.152853,b'ahmadchaiban',25,0,1
+INFO:root:1609254542.536648,b'ahmadchaiban',15,0,1
+INFO:root:1609254542.6721568,b'ahmadchaiban',15,0,1
+INFO:root:1609254543.046885,b'ahmadchaiban',25,0,1
+INFO:root:1609254543.192003,b'ahmadchaiban',25,0,1
+INFO:root:1609254543.560471,b'ahmadchaiban',25,0,1
+INFO:root:1609254543.7027662,b'ahmadchaiban',25,0,1
+INFO:root:1609254544.084746,b'ahmadchaiban',25,0,1
+INFO:root:1609254544.2290492,b'ahmadchaiban',25,0,1
+INFO:root:1609254544.631263,b'ahmadchaiban',30,1,1
+INFO:root:1609254544.780767,b'ahmadchaiban',30,1,1
+INFO:root:1609254545.146794,b'ahmadchaiban',25,0,1
+INFO:root:1609254545.2990022,b'ahmadchaiban',25,0,1
+INFO:root:1609254545.669054,b'ahmadchaiban',25,0,1
+INFO:root:1609254545.8097658,b'ahmadchaiban',25,0,1
+INFO:root:1609254546.205309,b'ahmadchaiban',25,0,1
+INFO:root:1609254546.346756,b'ahmadchaiban',25,0,1
+INFO:root:1609254546.727854,b'ahmadchaiban',25,0,1
+INFO:root:1609254546.869708,b'ahmadchaiban',25,0,1
+INFO:root:1609254547.255508,b'ahmadchaiban',25,0,1
+INFO:root:1609254547.394512,b'ahmadchaiban',25,0,1
+INFO:root:1609254547.7680151,b'ahmadchaiban',25,0,1
+INFO:root:1609254547.910204,b'ahmadchaiban',25,0,1
+INFO:root:1609254548.280604,b'ahmadchaiban',25,0,1
+INFO:root:1609254548.425406,b'ahmadchaiban',25,0,1
+INFO:root:1609254548.787924,b'ahmadchaiban',25,0,1
+INFO:root:1609254548.9464588,b'ahmadchaiban',25,0,1
+INFO:root:1609254549.347123,b'ahmadchaiban',15,0,1
+INFO:root:1609254549.486592,b'ahmadchaiban',15,0,1
+INFO:root:1609254549.859106,b'ahmadchaiban',25,0,1
+INFO:root:1609254550.005986,b'ahmadchaiban',25,0,1
+INFO:root:1609254550.370711,b'ahmadchaiban',15,0,1
+INFO:root:1609254550.519537,b'ahmadchaiban',15,0,1
+INFO:root:1609254550.871861,b'ahmadchaiban',5,1,0
+INFO:root:1609254551.009598,b'ahmadchaiban',5,1,0
+INFO:root:1609254551.3571908,b'ahmadchaiban',5,1,0
+INFO:root:1609254551.491214,b'ahmadchaiban',5,1,0
+INFO:root:1609254551.843356,b'ahmadchaiban',5,1,0
+INFO:root:1609254552.007872,b'ahmadchaiban',5,1,0
+INFO:root:1609254552.401238,b'ahmadchaiban',15,0,1
+INFO:root:1609254552.557966,b'ahmadchaiban',15,0,1
+INFO:root:1609254552.93023,b'ahmadchaiban',15,0,1
+INFO:root:1609254553.070462,b'ahmadchaiban',15,0,1
+INFO:root:1609254553.42283,b'ahmadchaiban',5,1,0
+INFO:root:1609254553.557365,b'ahmadchaiban',5,1,0
+INFO:root:1609254553.910223,b'ahmadchaiban',5,1,0
+INFO:root:1609254554.048485,b'ahmadchaiban',5,1,0
+INFO:root:1609254554.42828,b'ahmadchaiban',15,1,0
+INFO:root:1609254554.596171,b'ahmadchaiban',15,1,0
+INFO:root:1609254554.945101,b'ahmadchaiban',15,1,0
+INFO:root:1609254555.1120472,b'ahmadchaiban',15,1,0
+INFO:root:1609254555.4998,b'ahmadchaiban',15,0,1
+INFO:root:1609254555.653592,b'ahmadchaiban',15,0,1
+INFO:root:1609254555.999806,b'ahmadchaiban',5,1,0
+INFO:root:1609254556.138206,b'ahmadchaiban',5,1,0
+INFO:root:1609254556.517191,b'ahmadchaiban',5,1,0
+INFO:root:1609254556.655037,b'ahmadchaiban',5,1,0
+INFO:root:1609254557.018993,b'ahmadchaiban',15,0,1
+INFO:root:1609254557.1727428,b'ahmadchaiban',15,0,1
+INFO:root:1609254557.536082,b'ahmadchaiban',20,1,1
+INFO:root:1609254557.694726,b'ahmadchaiban',20,1,1
+INFO:root:1609254558.093386,b'ahmadchaiban',30,1,1
+INFO:root:1609254558.237233,b'ahmadchaiban',30,1,1
+INFO:root:1609254558.608511,b'ahmadchaiban',30,1,1
+INFO:root:1609254558.757972,b'ahmadchaiban',30,1,1
+INFO:root:1609254559.132567,b'ahmadchaiban',30,1,1
+INFO:root:1609254559.286459,b'ahmadchaiban',30,1,1
+INFO:root:1609254559.689229,b'ahmadchaiban',25,0,1
+INFO:root:1609254559.864904,b'ahmadchaiban',25,0,1
+INFO:root:1609254560.264829,b'ahmadchaiban',25,0,1
+INFO:root:1609254560.414878,b'ahmadchaiban',25,0,1
+INFO:root:1609254560.788215,b'ahmadchaiban',25,0,1
+INFO:root:1609254560.9584918,b'ahmadchaiban',25,0,1
+INFO:root:1609254561.336075,b'ahmadchaiban',25,0,1
+INFO:root:1609254561.477896,b'ahmadchaiban',25,0,1
+INFO:root:1609254561.847237,b'ahmadchaiban',25,0,1
+INFO:root:1609254561.9932811,b'ahmadchaiban',25,0,1
+INFO:root:1609254562.389248,b'ahmadchaiban',25,0,1
+INFO:root:1609254562.5437598,b'ahmadchaiban',25,0,1
+INFO:root:1609254562.9183319,b'ahmadchaiban',25,0,1
+INFO:root:1609254563.0562408,b'ahmadchaiban',25,0,1
+INFO:root:1609254563.4402392,b'ahmadchaiban',25,0,1
+INFO:root:1609254563.6148238,b'ahmadchaiban',25,0,1
+INFO:root:1609254563.988033,b'ahmadchaiban',25,0,1
+INFO:root:1609254564.1298938,b'ahmadchaiban',25,0,1
+INFO:root:1609254564.540019,b'ahmadchaiban',25,0,1
+INFO:root:1609254564.679935,b'ahmadchaiban',25,0,1
+INFO:root:1609254565.068774,b'ahmadchaiban',25,0,1
+INFO:root:1609254565.233355,b'ahmadchaiban',25,0,1
+INFO:root:1609254565.6148539,b'ahmadchaiban',25,0,1
+INFO:root:1609254565.760291,b'ahmadchaiban',25,0,1
+INFO:root:1609254566.189034,b'ahmadchaiban',25,0,1
+INFO:root:1609254566.342931,b'ahmadchaiban',25,0,1
+INFO:root:1609254566.842544,b'ahmadchaiban',25,0,1
