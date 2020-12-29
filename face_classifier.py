@@ -18,6 +18,7 @@ class FaceDetector:
         self.authorized_persons = self.names
         self.num_authorized = 0
         self.num_unauthorized = 0
+        self.num_unknown = 0
 
     def read_images(self):
         """
@@ -108,6 +109,7 @@ class FaceDetector:
         for name in final_names:
             if name.lower() == 'unknown':
                 self.risk_score += 25
+                self.num_unknown += 1
             elif name in self.authorized_persons:
                 self.num_authorized += 1
             else:
@@ -117,3 +119,4 @@ class FaceDetector:
     def dump(self):
         self.num_authorized = 0
         self.num_unauthorized = 0
+        self.num_unknown = 0

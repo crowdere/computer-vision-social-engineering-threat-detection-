@@ -22,7 +22,9 @@ import logging
 # Structure
 # Timestamp | Username | Risk Score | Number of background actors (no face or gaze)
 # | Number of unauthorized or unknown faces
-logging.basicConfig(filename='risk.log', level=logging.DEBUG)
+logging.basicConfig(filename='risk.csv', level=logging.INFO)
+# logging.info("Timestamp,username,risk score,background actors,unauthorized detections")
+
 
 # log = logging.getLogger('werkzeug')
 # log.setLevel(logging.ERROR)
@@ -56,6 +58,16 @@ def decode_image(img_string):
     return cv2.imdecode(jpg_as_np, flags=1)
 
 
+def log_event(username, gaze, yolo_net, face_net):
+
+    unauthorized_unknown_count = face_net.num_unauthorized + face_net.num_unknown
+
+    log_string = f"{time.time()},{str(username)},{gaze.final_risk_score}," \
+                 f"{yolo_net.final_num_bkgnd},{unauthorized_unknown_count}"
+
+    logging.info(log_string)
+
+
 @app.route('/processImage', methods=['POST'])
 def enterprise_shield_process_per_frame():
     # print(request.files['image'].read())
@@ -74,9 +86,8 @@ def enterprise_shield_process_per_frame():
 
     if not yolo_net.process_this_frame:
         gaze.final_risk_score = str(gaze.risk_score)
+        yolo_net.final_num_bkgnd = abs(len(face_net.face_names) - yolo_net.number_detections)
 
-        logging.info(f"{time.time()} | {request.files['username'].read()} | {gaze.final_risk_score} | \
-        {abs(len(face_net.face_names) - yolo_net.number_detections)} | {face_net.num_unauthorized}")
 
         yolo_net.dump()
 
@@ -85,6 +96,8 @@ def enterprise_shield_process_per_frame():
 
     cv2.putText(frame, "Risk Score: " + gaze.final_risk_score,
                 (int(0.35 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 255, 255), 2)
+
+    log_event(request.files['username'].read(), gaze, yolo_net, face_net)
 
     face_net.dump()
 

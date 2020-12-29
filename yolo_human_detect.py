@@ -9,6 +9,7 @@ class HumanDetector:
         self.process_this_frame = True
         self.risk_score = 0
         self.number_detections = 0
+        self.final_num_bkgnd = 0
 
     def get_yolo_classes(self):
         with open('coco.names', 'r') as f:
