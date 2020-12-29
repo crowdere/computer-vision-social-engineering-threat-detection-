@@ -2,6 +2,7 @@ import cv2
 import json
 import numpy as np
 import AzureConnector
+import time
 # For production server
 from waitress import serve
 
@@ -15,8 +16,14 @@ from flask_cors import CORS
 from flask import request
 
 import base64
+import logging
 
-# import logging
+# Log file
+# Structure
+# Timestamp | Username | Risk Score | Number of background actors (no face or gaze)
+# | Number of unauthorized or unknown faces
+logging.basicConfig(filename='risk.log', level=logging.DEBUG)
+
 # log = logging.getLogger('werkzeug')
 # log.setLevel(logging.ERROR)
 
@@ -68,11 +75,19 @@ def enterprise_shield_process_per_frame():
     if not yolo_net.process_this_frame:
         gaze.final_risk_score = str(gaze.risk_score)
 
-    cv2.rectangle(frame, (int(0.35 * width), int(height*1.01)), (int(0.35 * width + 0.45*width), int(height*1.01 - 60)), (0, 0, 0), -1)
+        logging.info(f"{time.time()} | {request.files['username'].read()} | {gaze.final_risk_score} | \
+        {abs(len(face_net.face_names) - yolo_net.number_detections)} | {face_net.num_unauthorized}")
+
+        yolo_net.dump()
+
+    cv2.rectangle(frame, (int(0.35 * width), int(height*1.01)), (int(0.35 * width + 0.45*width),
+                                                                 int(height*1.01 - 60)), (0, 0, 0), -1)
 
     cv2.putText(frame, "Risk Score: " + gaze.final_risk_score,
                 (int(0.35 * width), height), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 255, 255), 2)
+
     face_net.dump()
+
     return json.dumps({"image": encode_image(frame), "risk_score": gaze.risk_score})
 
 

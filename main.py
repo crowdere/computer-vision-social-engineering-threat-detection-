@@ -5,6 +5,7 @@ from security_features import EnterpriseShield
 import base64
 import json
 import platform
+import getpass
 
 # Windows users should set their execution policy to run powershell scripts
 operating_system = platform.platform()
@@ -32,7 +33,7 @@ if __name__ == '__main__':
 
     while True:
         ret, frame = video_capture.read()
-        frame_json = {'image': encode_image(frame)}
+        frame_json = {'image': encode_image(frame), 'username': getpass.getuser()}
         json_response = json.loads(requests.post(f'http://localhost:80/processImage', files=frame_json).text)
 
         image_b64 = json_response['image']

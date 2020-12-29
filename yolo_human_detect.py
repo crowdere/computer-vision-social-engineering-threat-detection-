@@ -8,6 +8,7 @@ class HumanDetector:
         self.outs = None
         self.process_this_frame = True
         self.risk_score = 0
+        self.number_detections = 0
 
     def get_yolo_classes(self):
         with open('coco.names', 'r') as f:
@@ -61,6 +62,7 @@ class HumanDetector:
             if class_ids[i] == 0:
                 # Adding here to re-increase risk score
                 self.risk_score += 5
+                self.number_detections += 1
                 label = str(self.classes[class_id])
                 cv2.rectangle(frame, (round(box[0]),round(box[1])),
                               (round(box[0]+box[2]),round(box[1]+box[3])), (0, 255, 0), 2)
@@ -78,4 +80,7 @@ class HumanDetector:
         if self.risk_score < 0:
             self.risk_score = 0
         return frame
+
+    def dump(self):
+        self.number_detections = 0
 
