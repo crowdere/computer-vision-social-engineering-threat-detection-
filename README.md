@@ -30,14 +30,38 @@ The following figure summarizes the working pipeline.
     <img src="doc_images/6510%20ML%20diagram.png"/>
 </center>
 
-<h2 style="color: #3a7aad">Development Environment File Structure</h2>
+<h2 style="color: #3a7aad">File Structure</h2>
 
-* **face_classifier.py** Contains the original face recognition class
-* **yolo_human_detect.py** Contains the yolo human detector class
-* **security_features.py** Houses a class with the security features 
-* **gaze_tracking** Contains relevant classes required for gaze detection 
-* **main.py** runs the application  
-* **app.py** runs the flask server
+```
+├── README.md 
+├── TheEnterpriseShield.pdf
+├── client
+│   ├── main.py
+│   ├── powershell_scripts
+│   │   ├── hideWindows.ps1
+│   │   ├── lockscreen.ps1
+│   │   └── notification.ps1
+│   └── security_features.py
+├── doc_images
+├── requirements.txt
+└── server
+    ├── app.py
+    ├── azure
+    │   ├── AzureConnector.py
+    │   ├── parameter_dev.json
+    │   └── parameters_prod.json
+    ├── known_people
+    │   ├── AhmadChaiban.jpg
+    │   ├── DanielCraig.jpg
+    │   └── EdwardCrowder.jpg
+    ├── logs
+    │   └── risk.csv
+    └── models
+        ├── face_classifier.py
+        ├── gaze_tracking
+        ├── weights
+        └── yolo_human_detect.py
+```
 
 <h2 style="color: #3a7aad">Detection Example</h2>
 
