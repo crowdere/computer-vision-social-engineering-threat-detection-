@@ -86,7 +86,6 @@ def enterprise_shield_process_per_frame():
         gaze.final_risk_score = str(gaze.risk_score)
         yolo_net.final_num_bkgnd = abs(len(face_net.face_names) - yolo_net.number_detections)
 
-
         yolo_net.dump()
 
     cv2.rectangle(frame, (int(0.35 * width), int(height*1.01)), (int(0.35 * width + 0.45*width),
