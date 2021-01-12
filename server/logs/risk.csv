@@ -2101,3 +2101,4 @@ INFO:root:1610488388.5360482,b'',25,0,1
 INFO:root:1610488388.691801,b'ahmadchaiban',25,0,1
 INFO:root:1610488389.15676,b'',25,0,1
 INFO:root:1610488389.320566,b'ahmadchaiban',25,0,1
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
