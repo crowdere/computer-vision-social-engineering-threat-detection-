@@ -43,7 +43,7 @@ class FaceDetector:
                 globals()['image_{}'.format(i)]
             )[0]
             known_face_encodings.append(globals()['image_encoding_{}'.format(i)])
-            self.names[i] = self.names[i].replace("known_people/", "")
+            self.names[i] = self.names[i].replace("known_people/", "").replace('.jpg', '')
             known_face_names.append(self.names[i])
         return known_face_encodings, known_face_names
 

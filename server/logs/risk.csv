@@ -2102,3 +2102,37 @@ INFO:root:1610488388.691801,b'ahmadchaiban',25,0,1
 INFO:root:1610488389.15676,b'',25,0,1
 INFO:root:1610488389.320566,b'ahmadchaiban',25,0,1
 INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:No suitable token exists in cache. Let's get a new one from AAD.
+INFO:root:1610493022.897783,b'',0,0,0
+INFO:root:1610493023.139959,b'ahmadchaiban',0,0,0
+INFO:root:1610493023.6146162,b'',0,0,0
+INFO:root:1610493023.830575,b'ahmadchaiban',0,0,0
+INFO:root:1610493024.305279,b'',0,0,0
+INFO:root:1610493024.509384,b'ahmadchaiban',0,0,0
+INFO:root:1610493025.024034,b'',0,0,0
+INFO:root:1610493025.191372,b'ahmadchaiban',0,0,0
+INFO:root:1610493025.680108,b'',0,0,0
+INFO:root:1610493025.8781068,b'ahmadchaiban',0,0,0
+INFO:root:1610493026.348638,b'',0,0,0
+INFO:root:1610493026.505881,b'ahmadchaiban',0,0,0
+INFO:root:1610493026.961235,b'',0,0,0
+INFO:root:1610493027.165812,b'ahmadchaiban',0,0,0
+INFO:root:1610493027.6340742,b'',0,0,0
+INFO:root:1610493027.823231,b'ahmadchaiban',0,0,0
+INFO:root:1610493028.2999198,b'',0,1,0
+INFO:root:1610493028.495544,b'ahmadchaiban',0,1,0
+INFO:root:1610493028.91603,b'',0,0,0
+INFO:root:1610493029.104502,b'ahmadchaiban',0,0,0
+INFO:root:1610493029.5743182,b'',0,0,0
+INFO:root:1610493029.733568,b'ahmadchaiban',0,0,0
+INFO:root:1610493030.188826,b'',0,0,0
+INFO:root:1610493030.3714519,b'ahmadchaiban',0,0,0
+INFO:root:1610493030.837934,b'',0,0,0
+INFO:root:1610493031.02706,b'ahmadchaiban',0,0,0
+INFO:root:1610493031.503393,b'',10,0,0
+INFO:root:1610493031.69105,b'ahmadchaiban',10,0,0
+INFO:root:1610493032.144725,b'',0,0,0
+INFO:root:1610493032.332352,b'ahmadchaiban',0,0,0
+INFO:root:1610493032.77233,b'',0,0,0
+INFO:root:1610493032.9138649,b'ahmadchaiban',0,0,0
+INFO:root:1610493033.3419352,b'',0,0,0
