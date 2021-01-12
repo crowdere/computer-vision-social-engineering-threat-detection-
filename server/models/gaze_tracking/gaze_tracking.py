@@ -181,5 +181,6 @@ class GazeTracking(object):
         return frame
 
     def risk_score_analysis(self, faces, authorized):
-        self.risk_score += abs(len(faces) - authorized) * 10
+        if len(faces) - authorized >= 0:
+            self.risk_score += (len(faces) - authorized) * 10
 
