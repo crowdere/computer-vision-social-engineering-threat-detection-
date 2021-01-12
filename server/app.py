@@ -9,6 +9,7 @@ from waitress import serve
 from models.yolo_human_detect import HumanDetector
 from models.face_classifier import FaceDetector
 from models.gaze_tracking.gaze_tracking import GazeTracking
+from evaluation.Doctor import Doctor
 
 from flask import Flask
 from flask_cors import CORS
@@ -37,6 +38,7 @@ AzureConnector.update_known_people()
 yolo_net = HumanDetector()
 face_net = FaceDetector()
 gaze = GazeTracking()
+doctor = Doctor()
 
 
 def preprocess_frame(frame):
@@ -85,6 +87,8 @@ def enterprise_shield_process_per_frame():
     if not yolo_net.process_this_frame:
         gaze.final_risk_score = str(gaze.risk_score)
         yolo_net.final_num_bkgnd = abs(len(face_net.face_names) - yolo_net.number_detections)
+        doctor.log_images(frame, request.files['session_name'].read(), request.files['img_index'].read(),
+                          request.files['username'].read())
 
         yolo_net.dump()
 

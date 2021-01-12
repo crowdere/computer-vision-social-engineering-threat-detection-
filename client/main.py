@@ -6,6 +6,8 @@ import base64
 import json
 import platform
 import getpass
+import string
+import random
 
 # Windows users should set their execution policy to run powershell scripts
 operating_system = platform.platform()
@@ -25,7 +27,10 @@ def decode_image(img_string):
     return cv2.imdecode(jpg_as_np, flags=1)
 
 
+session_name = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(12))
+
 if __name__ == '__main__':
+    image_logging_index = 1
     video_capture = cv2.VideoCapture(0)
     enterprise_shield = EnterpriseShield()
 
@@ -33,7 +38,11 @@ if __name__ == '__main__':
 
     while True:
         ret, frame = video_capture.read()
-        frame_json = {'image': encode_image(frame), 'username': getpass.getuser()}
+        frame_json = {'image': encode_image(frame),
+                      'username': getpass.getuser(),
+                      'img_index': image_logging_index,
+                      'session_name': session_name}
+
         json_response = json.loads(requests.post(f'http://localhost:80/processImage', files=frame_json).text)
 
         image_b64 = json_response['image']
@@ -51,6 +60,7 @@ if __name__ == '__main__':
         # check for unknown entiites and alert user every ~30 seconds or so
         # if face_net.face_names != []:
         #     enterprise_shield.notify_reset_timer(face_net.face_names[-1])
+        image_logging_index += 1
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
