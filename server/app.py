@@ -84,13 +84,13 @@ def enterprise_shield_process_per_frame():
 
     frame = gaze.per_face_gaze(frame, yolo_net.risk_score, face_net)
 
-    if not yolo_net.process_this_frame:
-        gaze.final_risk_score = str(gaze.risk_score)
-        yolo_net.final_num_bkgnd = abs(len(face_net.face_names) - yolo_net.number_detections)
-        doctor.log_images(frame, request.files['session_name'].read(), request.files['img_index'].read(),
-                          request.files['username'].read())
+    # if not yolo_net.process_this_frame:
+    gaze.final_risk_score = str(gaze.risk_score)
+    yolo_net.final_num_bkgnd = abs(len(face_net.face_names) - yolo_net.number_detections)
+    # doctor.log_images(frame, request.files['session_name'].read(), request.files['img_index'].read(),
+    #                   request.files['username'].read())
 
-        yolo_net.dump()
+    yolo_net.dump()
 
     cv2.rectangle(frame, (int(0.35 * width), int(height*1.01)), (int(0.35 * width + 0.45*width),
                                                                  int(height*1.01 - 60)), (0, 0, 0), -1)
@@ -101,6 +101,9 @@ def enterprise_shield_process_per_frame():
     log_event(request.files['username'].read(), gaze, yolo_net, face_net)
 
     face_net.dump()
+
+    doctor.log_images(frame, request.files['session_name'].read(), request.files['img_index'].read(),
+                      request.files['username'].read())
 
     return json.dumps({"image": encode_image(frame), "risk_score": gaze.risk_score})
 

@@ -161,7 +161,7 @@ class GazeTracking(object):
             for face in faces:
                 self.refresh(face, frame)
                 frame = self.extended_frame_annotation(frame)
-        # self.process_this_frame = not self.process_this_frame
+            # self.process_this_frame = not self.process_this_frame
             self.risk_score_analysis(faces, face_net.num_authorized)
         return frame
 
