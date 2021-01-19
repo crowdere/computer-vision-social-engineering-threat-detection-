@@ -6,7 +6,6 @@
 detectron2-e883afb9afe2b5196b7cba7485583a1d063a9991
 yolov3.weights
 __pycache__/
-gaze_tracking/
 detectron2-master/
 
 .ipynb_checkpoints/
@@ -22,3 +21,14 @@ recordings/
 parameters_prod.json
 
 archive
+doc_images/bonus/
+
+Related works /
+
+DRAFT3-EnterpriseShield.docx
+
+server/evaluation/ImageData/
+
+admin6510.pem
+
+user study application/

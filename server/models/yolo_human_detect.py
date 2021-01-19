@@ -47,7 +47,7 @@ class HumanDetector:
                 scores = detection[5:]
                 class_id = np.argmax(scores)
                 confidence = scores[class_id]
-                if confidence > 0.1:
+                if confidence > 0.85:
                     x, y, w, h = self.extract_box(detection, Width, Height)
                     class_ids.append(class_id)
                     confidences.append(float(confidence))
@@ -66,7 +66,7 @@ class HumanDetector:
                 self.number_detections += 1
                 label = str(self.classes[class_id])
                 cv2.rectangle(frame, (round(box[0]),round(box[1])),
-                              (round(box[0]+box[2]),round(box[1]+box[3])), (0, 255, 0), 2)
+                              (round(box[0]+box[2]),round(box[1]+box[3])), (255, 0, 0), 2)
                 cv2.putText(frame, label, (round(box[0])-10,round(box[1])-10),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
         return frame
@@ -77,7 +77,7 @@ class HumanDetector:
             self.make_yolo_prediction(frame)
             boxes, confidences, class_ids, class_id = self.get_bounding_box(frame)
             frame = self.draw_yolo_result(frame, boxes, confidences, class_ids, class_id)
-        self.process_this_frame = not self.process_this_frame
+        #self.process_this_frame = not self.process_this_frame
         if self.risk_score < 0:
             self.risk_score = 0
         return frame
