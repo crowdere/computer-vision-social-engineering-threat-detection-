@@ -38,11 +38,13 @@ if __name__ == '__main__':
 
     while True:
         ret, frame = video_capture.read()
+        # frame = cv2.resize(frame, (224, 224))
         frame_json = {'image': encode_image(frame),
                       'username': getpass.getuser(),
                       'img_index': image_logging_index,
                       'session_name': session_name}
 
+        # json_response = json.loads(requests.post(f'http://52.152.149.14:80/processImage', files=frame_json).text)
         json_response = json.loads(requests.post(f'http://localhost:80/processImage', files=frame_json).text)
 
         image_b64 = json_response['image']

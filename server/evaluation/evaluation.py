@@ -1,4 +1,4 @@
-from Doctor import Doctor
+from Doctor import ImageLogger
 
 class Evaluator:
     def __init__(self, risk_score, num_actors_total, num_gazes, num_faces, recog_faces_list, num_unknown_faces):

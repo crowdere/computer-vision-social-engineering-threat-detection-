@@ -1,20 +1,23 @@
 import cv2
 import numpy as np
 
+def get_yolo_classes():
+    with open('./models/weights/coco.names', 'r') as f:
+        classes = [line.strip() for line in f.readlines()]
+    return classes
+
+neural_net = cv2.dnn.readNet('./models/weights/yolov3.weights', './models/weights/yolov3.cfg')
+classes = get_yolo_classes()
+
 class HumanDetector:
     def __init__(self):
-        self.net = cv2.dnn.readNet('./models/weights/yolov3.weights', './models/weights/yolov3.cfg')
-        self.classes = self.get_yolo_classes()
+        self.net = neural_net
+        self.classes = classes
         self.outs = None
         self.process_this_frame = True
         self.risk_score = 0
         self.number_detections = 0
         self.final_num_bkgnd = 0
-
-    def get_yolo_classes(self):
-        with open('./models/weights/coco.names', 'r') as f:
-            classes = [line.strip() for line in f.readlines()]
-        return classes
 
     def make_yolo_prediction(self, frame):
         self.net.setInput(cv2.dnn.blobFromImage(frame, 0.00392, (416, 416), (0, 0, 0), True, crop=False))

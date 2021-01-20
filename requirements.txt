@@ -2,6 +2,7 @@ numpy>=1.18.5
 opencv-python>=4.4.0.44
 face_recognition
 dlib >= 19.16.0
+flask_cors
 
 Flask>=1.1.2
 matplotlib>=3.3.0

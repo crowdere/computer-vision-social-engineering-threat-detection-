@@ -5,6 +5,13 @@ import dlib
 from .eye import Eye
 from .calibration import Calibration
 
+# _face_detector is used to detect faces
+face_detector = dlib.get_frontal_face_detector()
+# _predictor is used to get facial landmarks of a given face
+cwd = os.path.abspath(os.path.dirname(__file__))
+model_path = os.path.abspath(os.path.join(cwd, "trained_models/shape_predictor_68_face_landmarks.dat"))
+predictor = dlib.shape_predictor(model_path)
+
 
 class GazeTracking(object):
     """
@@ -21,13 +28,14 @@ class GazeTracking(object):
         self.risk_score = 0
         self.final_risk_score = ''
 
-        # _face_detector is used to detect faces
-        self._face_detector = dlib.get_frontal_face_detector()
-
-        # _predictor is used to get facial landmarks of a given face
-        cwd = os.path.abspath(os.path.dirname(__file__))
-        model_path = os.path.abspath(os.path.join(cwd, "trained_models/shape_predictor_68_face_landmarks.dat"))
-        self._predictor = dlib.shape_predictor(model_path)
+        # # _face_detector is used to detect faces
+        self._face_detector = face_detector
+        #
+        # # _predictor is used to get facial landmarks of a given face
+        # cwd = os.path.abspath(os.path.dirname(__file__))
+        # model_path = os.path.abspath(os.path.join(cwd, "trained_models/shape_predictor_68_face_landmarks.dat"))
+        # self._predictor = dlib.shape_predictor(model_path)
+        self._predictor = predictor
 
         # Custom additions for eye detection
         self.x_add = 0

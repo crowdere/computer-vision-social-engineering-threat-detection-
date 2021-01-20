@@ -9,7 +9,7 @@ from waitress import serve
 from models.yolo_human_detect import HumanDetector
 from models.face_classifier import FaceDetector
 from models.gaze_tracking.gaze_tracking import GazeTracking
-from evaluation.Doctor import Doctor
+from evaluation.Doctor import ImageLogger
 
 from flask import Flask
 from flask_cors import CORS
@@ -26,19 +26,14 @@ logging.basicConfig(filename='./logs/risk.csv', level=logging.INFO)
 # logging.info("Timestamp,username,risk score,background actors,unauthorized detections")
 
 
-# log = logging.getLogger('werkzeug')
-# log.setLevel(logging.ERROR)
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/processImage": {"origins": "*"}})
 
 # download and replace newest list of authorized people
 AzureConnector.update_known_people()
-
-yolo_net = HumanDetector()
-face_net = FaceDetector()
-gaze = GazeTracking()
-doctor = Doctor()
 
 
 def preprocess_frame(frame):
@@ -71,6 +66,12 @@ def log_event(username, gaze, yolo_net, face_net):
 @app.route('/processImage', methods=['POST'])
 def enterprise_shield_process_per_frame():
     # print(request.files['image'].read())
+
+    yolo_net = HumanDetector()
+    face_net = FaceDetector()
+    gaze = GazeTracking()
+    image_logger = ImageLogger()
+
     frame = decode_image(request.files['image'].read())
 
     width = int(0.9 * frame.shape[1])
@@ -102,7 +103,7 @@ def enterprise_shield_process_per_frame():
 
     face_net.dump()
 
-    doctor.log_images(frame, request.files['session_name'].read(), request.files['img_index'].read(),
+    image_logger.log_images(frame, request.files['session_name'].read(), request.files['img_index'].read(),
                       request.files['username'].read())
 
     return json.dumps({"image": encode_image(frame), "risk_score": gaze.risk_score})
@@ -110,4 +111,4 @@ def enterprise_shield_process_per_frame():
 
 if __name__ == '__main__':
     # app.run(port=80)
-    serve(app, host='0.0.0.0', port=80)
+    serve(app, host='0.0.0.0', port=80, threads=60)

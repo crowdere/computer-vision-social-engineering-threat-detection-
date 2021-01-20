@@ -1,7 +1,7 @@
 import cv2
 import time
 
-class Doctor:
+class ImageLogger:
     """
     A class that logs the images
     """
