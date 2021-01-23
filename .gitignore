@@ -32,3 +32,7 @@ server/evaluation/ImageData/
 admin6510.pem
 
 user study application/
+
+server/yolov5s.pt
+
+server/ML_Models/yolov5s.pt

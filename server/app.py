@@ -6,9 +6,10 @@ import time
 # For production server
 from waitress import serve
 
-from models.yolo_human_detect import HumanDetector
-from models.face_classifier import FaceDetector
-from models.gaze_tracking.gaze_tracking import GazeTracking
+# from models.yolo_human_detect import HumanDetector
+from ML_Models.yolov5_human_detect import YoloV5
+from ML_Models.face_classifier import FaceDetector
+from ML_Models.gaze_tracking.gaze_tracking import GazeTracking
 from evaluation.Doctor import ImageLogger
 
 from flask import Flask
@@ -67,7 +68,7 @@ def log_event(username, gaze, yolo_net, face_net):
 def enterprise_shield_process_per_frame():
     # print(request.files['image'].read())
 
-    yolo_net = HumanDetector()
+    yolo_net = YoloV5()
     face_net = FaceDetector()
     gaze = GazeTracking()
     image_logger = ImageLogger()
@@ -81,7 +82,9 @@ def enterprise_shield_process_per_frame():
 
     frame = face_net.process_frame(rgb_small_frame, frame)
 
-    frame = yolo_net.yolo_main(frame, face_net.risk_score, face_net)
+    frame = yolo_net.make_prediction(frame, face_net.risk_score, face_net)
+
+    # frame = cv2.bitwise_or(frame, face_frame, mask = None)
 
     frame = gaze.per_face_gaze(frame, yolo_net.risk_score, face_net)
 
