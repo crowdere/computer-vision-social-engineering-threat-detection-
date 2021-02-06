@@ -3,9 +3,14 @@ opencv-python>=4.4.0.44
 face_recognition
 dlib >= 19.16.0
 flask_cors
-
+torch
+torchvision
 Flask>=1.1.2
 matplotlib>=3.3.0
 requests>=2.22.0
 msal>=1.6.0
 waitress
+tqdm
+pyyaml
+pandas
+seaborn
